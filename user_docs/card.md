@@ -1,8 +1,3 @@
-* [For Users](/docs/user-manual)
-* Card
-
-On this page
-
 Card
 ====
 

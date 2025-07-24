@@ -1,8 +1,3 @@
-* [For Users](/docs/user-manual)
-* Board
-
-On this page
-
 Board
 =====
 

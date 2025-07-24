@@ -1,8 +1,3 @@
-* [For Users](/docs/user-manual)
-* Sidebar
-
-On this page
-
 Sidebar
 =======
 

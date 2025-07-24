@@ -1,8 +1,3 @@
-* [For Users](/docs/user-manual)
-* User Settings
-
-On this page
-
 Settings
 ========
 

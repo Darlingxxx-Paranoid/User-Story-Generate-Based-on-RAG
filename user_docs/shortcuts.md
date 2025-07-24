@@ -1,6 +1,3 @@
-* [For Users](/docs/user-manual)
-* Useful Shortcuts
-
 Useful Shortcuts
 ================
 

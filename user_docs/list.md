@@ -1,8 +1,3 @@
-* [For Users](/docs/user-manual)
-* List
-
-On this page
-
 List
 ====
 
