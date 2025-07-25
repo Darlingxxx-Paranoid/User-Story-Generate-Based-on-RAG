@@ -1,4 +1,4 @@
-Structure
+Structure Overview
 =========
 
 This section aims to present the logical structure of organizing the workflow with 4ga Boards.

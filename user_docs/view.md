@@ -1,4 +1,4 @@
-Views description
+Views Description
 =================
 
 1. Dashboard view

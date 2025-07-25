@@ -222,12 +222,18 @@ def remove_heading_anchors(md_text):
 def add_node(node_id, node_type, content=None):
     if node_id in node_set:
         return
-    graph["nodes"].append({"id": node_id, "type": node_type, "content": content or {}})
+    graph["nodes"].append(
+        {
+            "id": node_id,
+            "type": node_type.value,
+            "content": content or {},
+        }
+    )
     node_set.add(node_id)
 
 
 def add_edge(src, tgt, rel):
-    graph["edges"].append({"source": src, "target": tgt, "type": rel})
+    graph["edges"].append({"source": src, "target": tgt, "type": rel.value})
 
 
 def GraphG_mainpage(text):
@@ -262,7 +268,7 @@ def GraphG_module(text):
             NodeType.SECTION,
             f"{section[0]}\n---------------\n{section_content}",
         )
-        add_edge(f"{title}", f"{title}_{section[0]}", EdgeType.HAS_MODULE)
+        add_edge(f"{title}", f"{title}_{section[0]}", EdgeType.HAS_SECTION)
 
 
 # 主处理流程
@@ -279,3 +285,6 @@ for root, dirs, files in os.walk(DOCS_PATH):
             GraphG_mainpage(text)
         else:
             GraphG_module(text)
+output_graph_path = os.path.join(OUTPUT_PATH, "global_graph.json")
+with open(output_graph_path, "w", encoding="utf-8") as f:
+    json.dump(graph, f, ensure_ascii=False, indent=2)

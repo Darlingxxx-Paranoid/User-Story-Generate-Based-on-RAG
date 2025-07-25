@@ -1,0 +1,1021 @@
+{
+  "nodes": [
+    {
+      "id": "Board",
+      "type": "Module",
+      "content": "Board"
+    },
+    {
+      "id": "Board_introduce_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Board_introduce_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The screenshot depicts the dashboard of the 4ga Boards web application. The user interface is divided into a left sidebar and a main content area. The sidebar contains a list of projects, grouped into categories such as 'Personal', '4ga', etc., with an option to add new projects or boards. The main content area currently shows that no boards are available under the selected project. Several interactive elements are present at the top, including options to manage settings, view notifications, and add a new board. The interface is dark-themed, providing a modern and user-friendly design.\"\n\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Logo Image\",\n            \"function\": \"Displays the logo of the web app\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Navigation Panel\",\n            \"function\": \"Contains filter and project navigation options\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Search Box\",\n            \"function\": \"Allows users to filter boards\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Category List\",\n            \"function\": \"Displays project categories\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Expandable List Item\",\n            \"function\": \"Shows or hides boards under a specific category\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Add Project Button\",\n            \"function\": \"Allows users to add a new project\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Add Board Button\",\n            \"function\": \"Allows users to add a new board\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Main Content Area\",\n            \"function\": \"Displays content or boards related to the selected project\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Add Board Icon\",\n            \"function\": \"Facilitates the addition of a new board\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Settings Icon\",\n            \"function\": \"Opens settings menu\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Notifications Icon\",\n            \"function\": \"Shows the user notifications\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Profile Icon\",\n            \"function\": \"Accesses the user's profile or settings\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Board_introduce_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in Board_introduce_shot_example_2\n```json\n{\n    \"scenarios of shot\": \"The screenshot displays a project management board interface, designed for task organization and tracking. The page is divided into columns representing different stages of task progress within a project named 'Important Project'. The interface allows for categorizing tasks into various lists, such as 'Open', 'Todo', 'In Progress', and 'Done'. Users can add or move tasks between these columns. The left sidebar facilitates navigation between different projects and boards. Additionally, it includes options to filter and manage the boards. The interface features user management tools and other settings for personalized user experience.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Text\",\n            \"function\": \"Displaying the app logo '4GA Boards'\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Input Field\",\n            \"function\": \"Filter boards\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Navigation Menu\",\n            \"function\": \"Accessing different projects and sections\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Button\",\n            \"function\": \"Add Project\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Button\",\n            \"function\": \"Add Board\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Dropdown\",\n            \"function\": \"Select board visibility options\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Text\",\n            \"function\": \"Display board name 'Important Project'\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Counter\",\n            \"function\": \"Shows the number of cards in the board\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Avatar\",\n            \"function\": \"Shows user initials or image (Wi)\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button\",\n            \"function\": \"Access members and settings\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Dropdown\",\n            \"function\": \"Filter members\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Dropdown\",\n            \"function\": \"Filter labels\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"Button\",\n            \"function\": \"Refresh or sync board\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"Column Header\",\n            \"function\": \"Identify task list 'Open'\"\n        },\n        {\n            \"index\": 15,\n            \"class\": \"Card\",\n            \"function\": \"Task details\"\n        },\n        {\n            \"index\": 16,\n            \"class\": \"Button\",\n            \"function\": \"Add card\"\n        },\n        {\n            \"index\": 17,\n            \"class\": \"Column Header\",\n            \"function\": \"Identify task list 'Todo'\"\n        },\n        {\n            \"index\": 18,\n            \"class\": \"Card\",\n            \"function\": \"Task details with label 'bug'\"\n        },\n        {\n            \"index\": 19,\n            \"class\": \"Card\",\n            \"function\": \"Task with due date '3.10.2024'\"\n        },\n        {\n            \"index\": 20,\n            \"class\": \"Avator\",\n            \"function\": \"Shows assignee initials (Wi)\"\n        },\n        {\n            \"index\": 21,\n            \"class\": \"Column Header\",\n            \"function\": \"Identify task list 'In Progress'\"\n        },\n        {\n            \"index\": 22,\n            \"class\": \"Card\",\n            \"function\": \"Task details with label 'bug'\"\n        },\n        {\n            \"index\": 23,\n            \"class\": \"Button\",\n            \"function\": \"Add card\"\n        },\n        {\n            \"index\": 24,\n            \"class\": \"Column Header\",\n            \"function\": \"Identify task list 'Done'\"\n        },\n        {\n            \"index\": 25,\n            \"class\": \"Card\",\n            \"function\": \"Task details with label 'NOW!'\"\n        },\n        {\n            \"index\": 26,\n            \"class\": \"Progress Bar\",\n            \"function\": \"Task completion status 3/3\"\n        },\n        {\n            \"index\": 27,\n            \"class\": \"Badge\",\n            \"function\": \"Task with due date '1.10.2024'\"\n        },\n        {\n            \"index\": 28,\n            \"class\": \"Button\",\n            \"function\": \"Add list\"\n        },\n        {\n            \"index\": 29,\n            \"class\": \"Button\",\n            \"function\": \"Settings\"\n        },\n        {\n            \"index\": 30,\n            \"class\": \"Button\",\n            \"function\": \"Notifications\"\n        },\n"
+    },
+    {
+      "id": "Board_introduce",
+      "type": "Section",
+      "content": "Board_introduce\nThe heart of 4ga Boards is, unsuprisingly, a board. Board view is the main view of this app - you will spend here most of your time. Don't worry! It's easy to grasp.\nAt first you will see that your project contains no boards - to create them, simply click the `+Add Board` button that is located at the bottom of the sidebar or at the top-right corner of the screen.\n\n![Empty board view] (Board_introduce_shot_example_1)\n\nIf you are joining to an existing project, here is how it should look like:\n\n![Main view showing the getting started board] (Board_introduce_shot_example_2)\n\nNotice that selected board is highlighted in the sidebar view (in this example it is \"Important Project\" Board inside \"4ga Boards\" project)."
+    },
+    {
+      "id": "Board_Creating a new board​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Board_Creating a new board​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"This web application screen is part of the 4ga Boards app, showcasing project management features. The page consists of a navigation panel on the left with a list of projects or categories, such as 'Personal', '4ga', and others. On the right, the main content area displays 'Showing 5 Boards [Selected Project]' with separate tiles for each board—'Important Project', 'Meetings', 'Administration', 'R&D', and 'Testing'. Utility icons for settings and user profile are visible on the upper right corner, with an additional 'Add Board' functionality available at the bottom left of the navigation panel and top right of the main content area.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Logo\",\n            \"function\": \"Represents the 4ga Boards application branding.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Navigation Panel\",\n            \"function\": \"Provides a list of projects/categories for navigation.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Search Box\",\n            \"function\": \"Allows users to filter boards based on search terms.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Project/Category List Item\",\n            \"function\": \"Represents a selectable item within a project or category.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Add Project Button\",\n            \"function\": \"Allows users to add a new project to the list.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Add Board Button (Sidebar)\",\n            \"function\": \"Provides an option to add a new board to the current panel.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Main Content Header\",\n            \"function\": \"Displays the current number of boards and the selected project.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Board Tile\",\n            \"function\": \"Represents an individual board that can be selected for more details.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Settings Icon\",\n            \"function\": \"Accesses application settings.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"User Profile Icon\",\n            \"function\": \"Accesses user account settings.\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Add Board Button (Header)\",\n            \"function\": \"Alternative location to add a new board to the project.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Board_Creating a new board​_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in Board_Creating a new board​_shot_example_2\n```json\n{\n    \"scenarios of shot\": \"The page is a pop-up modal for adding a new board within a web application. It allows users to input necessary details for creating a new board, such as entering a board name, selecting a project, choosing a template, or importing an existing one. The user finalizes the action by clicking the 'Add Board' button or can exit the modal by clicking the close option.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Label\",\n            \"function\": \"Title of the modal - 'Add Board'\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Textbox\",\n            \"function\": \"Input field for entering a board name\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Label\",\n            \"function\": \"Descriptor for 'Project' dropdown\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Dropdown\",\n            \"function\": \"Selector for choosing a project\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Label\",\n            \"function\": \"Descriptor for 'Template' dropdown\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Dropdown\",\n            \"function\": \"Selector for choosing a template\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Button\",\n            \"function\": \"Import existing configuration\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Button\",\n            \"function\": \"Confirm and add the new board\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Close Button\",\n            \"function\": \"Close the modal without any action\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Board_Creating a new board​_shot_example_3",
+      "type": "Webshot",
+      "content": "The contents in Board_Creating a new board​_shot_example_3\n```json\n{\n    \"scenarios of shot\": \"This page appears to be a project management board, commonly used for tracking tasks through various stages of completion. The layout divides tasks into columns representing different statuses, such as Open, Todo, In Progress, and Done. Each column is designed to hold cards that represent individual tasks or pieces of work. Currently, all columns are empty as indicated by '0 cards', suggesting no tasks have been added yet. The user can add new cards to each column using the '+ Add card' option.\",\n\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Column Header\",\n            \"function\": \"Indicates the status category of tasks (Open).\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Task Count Display\",\n            \"function\": \"Shows the number of cards currently in the column (0 cards).\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Add Card Button\",\n            \"function\": \"Allows the user to add a new task card to the column.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Column Header\",\n            \"function\": \"Indicates the status category of tasks (Todo).\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Task Count Display\",\n            \"function\": \"Shows the number of cards currently in the column (0 cards).\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Add Card Button\",\n            \"function\": \"Allows the user to add a new task card to the column.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Column Header\",\n            \"function\": \"Indicates the status category of tasks (In Progress).\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Task Count Display\",\n            \"function\": \"Shows the number of cards currently in the column (0 cards).\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Add Card Button\",\n            \"function\": \"Allows the user to add a new task card to the column.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Column Header\",\n            \"function\": \"Indicates the status category of tasks (Done).\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Task Count Display\",\n            \"function\": \"Shows the number of cards currently in the column (0 cards).\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Add Card Button\",\n            \"function\": \"Allows the user to add a new task card to the column.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Board_Creating a new board​_shot_example_4",
+      "type": "Webshot",
+      "content": "The contents in Board_Creating a new board​_shot_example_4\n```json\n{\n    \"scenarios of shot\": \"The web app page displayed is a Kanban board used for task management. It features multiple columns—'Open', 'Todo', 'In Progress', 'To Test', and 'Done'—which are typical stages in a workflow process. Each column can contain task cards that can be added and managed directly within that specific column. At the moment, each column shows '0 cards', indicating no tasks have been added yet. There is also the functionality to add new cards beneath each column, signifying the option to create new tasks in any workflow stage. Each column also has a dropdown menu or other options indicated by an ellipsis which suggests possible configuration or action options for that column.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Column Header\",\n            \"function\": \"Displays the name of the stage in the workflow (e.g., 'Open', 'Todo').\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Text\",\n            \"function\": \"Indicates the current number of cards in the column; currently shows '0 cards' for each.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Button\",\n            \"function\": \"Allows users to add a new card to the column; labeled as 'Add card'.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Dropdown Menu/Options\",\n            \"function\": \"Represents additional actions or settings related to the column, denoted by an ellipsis.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Board_Creating a new board​",
+      "type": "Section",
+      "content": "Creating a new board​\n---------------\n\nThere can be more than one board per project - simply click the `+Add Board` button that is located at the top-right corner of the screen to create new one inside the currently opened project. Alternatively you can add board using three-dot sidebar menu of a [project](module_project) (it will create the board inside the selected project). The last option is to click the `+Add Board` button at the bottom of the sidebar. This will enable additional setting - choosing the project in which the board will be created from the dropdown list.\n\n![Buttons placement for creating a new board] (Board_Creating a new board​_shot_example_1)\n\nThis will open up a pop-up window in which you can name your board, prefill the lists in the board with templates or import your data from 4ga Boards (in .csv file format) or from Trello (supporting .json file format).\n\n![Board creation popup window] (Board_Creating a new board​_shot_example_2)\n\nCurrently there are two available templates, simple:\n\n![Simple board template] (Board_Creating a new board​_shot_example_3)\n\nAnd kanban:\n\n![Kanban board template] (Board_Creating a new board​_shot_example_4)\n"
+    },
+    {
+      "id": "Board_Board additional options​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Board_Board additional options​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The web app interface depicted shows a navigation panel on the left side with a hierarchy of items, and a context menu is displayed on the right. The context menu provides several options related to managing a board, such as renaming, editing connections, exporting, and deleting the board.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"CollapsibleMenu\",\n            \"function\": \"Toggle the visibility of menu items\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"MenuItem\",\n            \"function\": \"Select 'Learn 4ga Boards'\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"OptionsMenuButton\",\n            \"function\": \"Open context menu for 'Learn 4ga Boards'\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"ContextMenuOption\",\n            \"function\": \"Rename the board\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"ContextMenuOption\",\n            \"function\": \"Edit GitHub connection for the board\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"ContextMenuOption\",\n            \"function\": \"Export the board\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"ContextMenuOption\",\n            \"function\": \"Delete the board\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Board_Board additional options​_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in Board_Board additional options​_shot_example_2\n```json\n{\n    \"scenarios of shot\": \"This web app interface appears to be a dashboard or board management tool showing a summary or overview of a specific project or task. It displays a count of 'cards', potentially indicating tasks or issues, lists team members involved, and categorizes the cards under specific labels. It seems to provide quick access to member details and category filters, likely aiding in project management.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Text\",\n            \"function\": \"Display card count\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Avatar\",\n            \"function\": \"Display member initials or identity\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Avatar\",\n            \"function\": \"Display member initials or identity\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Avatar\",\n            \"function\": \"Display member initials or identity\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Button\",\n            \"function\": \"Add new member\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Text\",\n            \"function\": \"Display members related text\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Avatar\",\n            \"function\": \"Display selected member's initials or identity\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Text\",\n            \"function\": \"Display labels related text\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Label\",\n            \"function\": \"Display or filter cards based on the label 'important'\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button/Icon\",\n            \"function\": \"Synchronization or update function, possibly linked with GitHub\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Board_Board additional options​",
+      "type": "Section",
+      "content": "Board additional options​\n---------------\n\nIf you want to edit or delete your board, open the ellipsis menu in the sidebar (they will show after you hover over the board name). You can also change the order of the board within the project after clicking and holding the two arrows button that will appear on the left of the board name. If you wish, you can also export your board in .csv format here.\n\n![Popup menu with board settings] (Board_Board additional options​_shot_example_1)\n\nEach board comes with separate settings bar, in which (going from left to right) you can:\n\n1. See the number of cards after filtering,\n2. Add members to the board,\n3. Filter existing cards by members attached to them,\n4. Filter cards by labels (also create/edit the labels).\n5. Set up Github integration (WIP).\n\n![Board settings bar] (Board_Board additional options​_shot_example_2)\n"
+    },
+    {
+      "id": "Board_Board permissions​",
+      "type": "Section",
+      "content": "Board permissions​\n---------------\n\nEach member of the board can have different permission:\n\n* Project manager: manage boards and add members,\n* Editor: can create and delete tasks and lists,\n* Commenter: can view contents of the board and comment on the cards,\n* Viewer: can only view contents of the board."
+    },
+    {
+      "id": "Card",
+      "type": "Module",
+      "content": "Card"
+    },
+    {
+      "id": "Card_introduce",
+      "type": "Section",
+      "content": "Card_introduce\nThis section shows all of the possible actions that can be performed with a card, including labelling, notifications and extensive tutorial on description text editor.\n\nCard represents individual task, e.g. \"Go buy groceries\" or \"Fix the wrong button placement\"."
+    },
+    {
+      "id": "Card_Creating, moving and deleting cards​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Card_Creating, moving and deleting cards​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The screenshot depicts a digital kanban board interface, characteristic of productivity and project management tools. It displays columns (lists) for task progression, namely 'TODO' and 'In Progress'. Each column indicates zero cards, suggesting no tasks currently listed. Options to add new cards are visible, and a context menu is open on the 'In Progress' section, providing options to edit the list, add a card, or delete the list. An option to add a new list is also prominent to the right, suggesting functionality for expanding task categories.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"List Header\",\n            \"function\": \"Display list title or name\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Card Counter\",\n            \"function\": \"Show number of cards/tasks within the list\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Add Card Button\",\n            \"function\": \"Add a new task or card to the list\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"List Options Menu\",\n            \"function\": \"Access additional list functions like edit or delete\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Edit Name Option\",\n            \"function\": \"Edit the name of the list\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Add Card Option\",\n            \"function\": \"Add a new card via context menu\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Delete List Option\",\n            \"function\": \"Delete the current list\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Add List Button\",\n            \"function\": \"Add a new list or column\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Creating, moving and deleting cards​_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in Card_Creating, moving and deleting cards​_shot_example_2\n{\n    \"scenarios of shot\": \"The image shows a digital Kanban board interface used for task management. It features a column titled 'Done', indicating tasks that have been completed. In the column, there is a task card labeled 'Fill in excel', which appears to be marked with a tag or label indicating importance and a progress indicator showing that the task is fully completed. The board interface suggests that there are additional columns for tasks in different stages, such as 'In Progress' and 'To Test'. This layout is commonly used to visually track the status of tasks across different project phases.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Column label\",\n            \"function\": \"Indicates the category or status of the tasks within this section.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Task card\",\n            \"function\": \"Represents an individual task or item within the column.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Tag/label\",\n            \"function\": \"Highlights the significance or category of the task. In this case, 'important'.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Progress bar\",\n            \"function\": \"Displays the completion status of the task, showing it as complete with a full bar and 3/3 indicator.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Panel button\",\n            \"function\": \"Controls or settings for the task card, usually represented by a dropdown or context menu.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Section label\",\n            \"function\": \"Indicates the title of other task columns ('In Progress', 'To Test') on the board.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Add card button\",\n            \"function\": \"Allows users to add a new task or item to the corresponding column.\"\n        }\n    ]\n}"
+    },
+    {
+      "id": "Card_Creating, moving and deleting cards​",
+      "type": "Section",
+      "content": "Creating, moving and deleting cards​\n---------------\n\nTo create a card you have two options:\n\n1. Click on the `+ Add Card` button at the bottom of an existing list.\n2. Click the `ellipsis` icon at the top-right of the list and select `Add Card`. It will create card at the bottom of the list.\n\n![List menu with add card button] (Card_Creating, moving and deleting cards​_shot_example_1)\n\nAfter you write the title of the card, press `Enter` or \"Add card\" button to create it; alternatively, you can press `Ctrl` + `Enter` combination to create the card and immidiately open it. To abort creating a new card, press `Cancel` or click in an empty spot on the board (this option will not work if you have filled the title; in that case, click the `Cancel` button).\n\nThe easiest way to move cards across the board is to drag and drop it in the desired place - just click and hold it! You can put card in both open and hidden lists. When dropping to the hidden list, it will be placed at the bottom of this list. To be sure which hidden list are you putting your card into, look if the title is pushed lower. In the example below, the card will be stored in \"To test\" list.\n\n![Demonstration of drap and dropping a card to another list] (Card_Creating, moving and deleting cards​_shot_example_2)\n\nThere are two other ways to move a card: with card menu (see below) and in the card view, right below the title (see Card options).\n\nTo delete the card, you have to move your mouse above the card you want to delete. After that, a three dot icon will appear. Click on it to open a card menu and select `Delete Card`.\n"
+    },
+    {
+      "id": "Card_Card menu​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Card_Card menu​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"In this web app screenshot, there is a board labeled 'Todo' containing cards where tasks are managed. The board is displaying three cards with tasks and includes a menu of options for card management, such as editing and organizing tasks. A user has expanded the options dropdown on the first card, presenting various actions that can be taken for that specific card. The board visually organizes tasks, provides metadata for these tasks like labels and due dates, and offers card-specific controls to manage the user's workflow effectively.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Board Label\",\n            \"function\": \"Indicates the name of the board.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Card Count\",\n            \"function\": \"Shows the number of cards in the board.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Card\",\n            \"function\": \"Represents a specific task or item to be performed.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Menu Button\",\n            \"function\": \"Expands menu options for the card when clicked.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Action Menu\",\n            \"function\": \"Drop-down menu containing different actions to manage the card.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Edit Name Option\",\n            \"function\": \"Allows the user to change the name of the card.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Edit Members Option\",\n            \"function\": \"Allows the user to modify the members assigned to the card.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Edit Labels Option\",\n            \"function\": \"Allows the user to alter the labels associated with the card.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Edit Due Date Option\",\n            \"function\": \"Allows the user to set or modify the due date for the card.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Edit Timer Option\",\n            \"function\": \"Allows the user to adjust the timer settings for the card.\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Move Card Option\",\n            \"function\": \"Facilitates moving the card to a different position on the board.\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Duplicate Card Option\",\n            \"function\": \"Creates a copy of the card.\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"Copy Link Option\",\n            \"function\": \"Provides a link to the card for sharing purposes.\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"Delete Card Option\",\n            \"function\": \"Deletes the card from the board.\"\n        },\n        {\n            \"index\": 15,\n            \"class\": \"Add Card Button\",\n            \"function\": \"Allows the user to add a new card to the board.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card menu​",
+      "type": "Section",
+      "content": "Card menu​\n---------------\n\n![Card context menu with card edit options] (Card_Card menu​_shot_example_1)\n\nAfter clicking the ellipsis menu in the card you will open a card menu. Here you can:\n\n1. Edit the name of the card\n2. Assing members to the card (see Card Options below)\n3. Add/remove labels to the card (see Card Options below)\n4. Edit due date of the card (see Card Options below)\n5. Edit timer of the card (see Card Options below)\n6. Move card to another project/board/list (note that this is the only way to move the card to another project or board, as drag & dropping the card works only on the lists in a current board)\n7. Duplicate card, which will create exact same copy of the card directly below it in the list\n8. Copy a link to a card which you can then share with your team\n9. Delete card\n"
+    },
+    {
+      "id": "Card_Card View overview​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Card_Card View overview​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The web app screenshot displays a task management board organized into categories or lists: 'To Do', 'In Progress', 'To Test', and 'Done'. Each list contains multiple cards that represent tasks, along with their due dates, labels, and timestamps. On the right side, a detailed view of the selected card 'Fill in excel' is presented, allowing users to see and edit task-specific details including members, labels, due dates, and additional functionality like description, tasks, attachments, and comments.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Label\",\n            \"function\": \"Display list titles such as 'To Do', 'In Progress', 'To Test', and 'Done'\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Card\",\n            \"function\": \"Represent individual tasks with information like title, labels, due dates, and timers\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Button\",\n            \"function\": \"Add new cards to lists\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Button\",\n            \"function\": \"Add new lists to the board\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Label\",\n            \"function\": \"Display card details such as members, labels, and due dates\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Input Field\",\n            \"function\": \"Edit task description\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Checkbox\",\n            \"function\": \"Mark tasks as complete or incomplete\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Button\",\n            \"function\": \"Add tasks within a card\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Button\",\n            \"function\": \"Add attachments to a card\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button\",\n            \"function\": \"Add comments to a card\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Button\",\n            \"function\": \"Unsubscribe from notifications related to the card\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card View overview​_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in Card_Card View overview​_shot_example_2\n```json\n{\n    \"scenarios of shot\": \"The page displays a web application named 4ga Board, which appears to be a project or task management tool. The interface is divided into several panels, each focusing on different aspects of task management. The leftmost panel lists 'Cards', categorized with sections like Attachments, Cards, Moving cards, Members, Labels, Due Date, Timer, Notifications, and Tasks, along with the option to add a new card. The middle panel is labeled 'Basics' and includes sections such as Projects/boards filtering, Navigating across the board, Board menu (filtering, members), Adding users to the board, and Collapse/Expand lists, with the option to add a card. The rightmost panel titled 'Attachments' details attachments related to a specific card, including descriptions, tasks, two attachments (an image and a text file), and options for notifications, adding attachments, and comments.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Header\",\n            \"function\": \"Displays title 'Learn 4ga Boards' and card count.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Dropdown\",\n            \"function\": \"Allows selection of members.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Dropdown\",\n            \"function\": \"Allows selection of labels.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Panel\",\n            \"function\": \"Contains card-related sections.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Button\",\n            \"function\": \"Expands or collapses panel.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Section\",\n            \"function\": \"Displays attachment details.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Thumbnail\",\n            \"function\": \"Represents image attachment.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"File\",\n            \"function\": \"Represents text file attachment.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Button\",\n            \"function\": \"Allows removing cover.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button\",\n            \"function\": \"Adds new attachment.\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Textbox\",\n            \"function\": \"Adds comment to the card.\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Button\",\n            \"function\": \"Shows activity related to comments.\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"Panel\",\n            \"function\": \"Displays card settings like Projects/boards filtering, etc.\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"Section\",\n            \"function\": \"Displays basics and features including projects/boards filtering.\"\n        },\n        {\n            \"index\": 15,\n            \"class\": \"Button\",\n            \"function\": \"Adds a new card in the Basics panel.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card View overview​",
+      "type": "Section",
+      "content": "Card View overview​\n---------------\n\nWhen you click on the card, the card view will show up at the right side of your screen. Why not on the centre? The unique feature of 4ga Boards is that you can manipulate the lists and boards while the card view is open.\n\n![Open card view with full board view] (Card_Card View overview​_shot_example_1)\n\nIt is quite convenient if you want to rearrange your cards while still writing the description, or to simply appraise you beautiful card cover picture. Isn't it beautiful?\n\n![Open card view with full board view and card logo attached] (Card_Card View overview​_shot_example_2)\n\nAlso, notice that cards have different appearance that is changing with the amount of options and details set.\n"
+    },
+    {
+      "id": "Card_Card options​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Card_Card options​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The page displays a task or ticket interface likely within a project management or issue tracking web application. The interface provides functionalities for task or issue management with options to set members, labels, due dates, and a timer. Users can also manage notifications and add detailed descriptions, tasks, attachments, and comments. The interface allows viewing and editing task details, displaying a section for tasks categorized possibly as 'Todo', with the provision to add and collapse various sections like Tasks, Attachments, and Comments.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Text heading\",\n            \"function\": \"Title of the task\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Dropdown\",\n            \"function\": \"Select task status\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Label\",\n            \"function\": \"Members associated with the task\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Label\",\n            \"function\": \"Tags or labels for categorizing the task\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Date picker/Label\",\n            \"function\": \"Set or display the due date\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Timer\",\n            \"function\": \"Logs time spent on task\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Button\",\n            \"function\": \"Manage notifications for the task\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Text area/Button\",\n            \"function\": \"Edit task description and toggle visibility\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Text block\",\n            \"function\": \"Display detailed description\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button\",\n            \"function\": \"Add a new task\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Button with text\",\n            \"function\": \"Collapse or expand task section\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Button\",\n            \"function\": \"Add an attachment\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"Button with text\",\n            \"function\": \"Collapse or expand attachment section\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"Button\",\n            \"function\": \"Add a new comment\"\n        },\n        {\n            \"index\": 15,\n            \"class\": \"Button with text\",\n            \"function\": \"Collapse or expand comments section\"\n        },\n        {\n            \"index\": 16,\n            \"class\": \"Button\",\n            \"function\": \"Delete or archive the task\"\n        },\n        {\n            \"index\": 17,\n            \"class\": \"Button\",\n            \"function\": \"Close or cancel edits\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card options​_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in Card_Card options​_shot_example_2\n```json\n{\n    \"scenarios of shot\": \"The page appears to be a part of a task or project management web application, specifically a modal or popup window for managing members of a task or project. It provides a search functionality to filter members and displays a list of members, each with an option to select or deselect them. The interface is streamlined for efficiency, allowing quick changes without navigating away from the main application screen.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Tab\",\n            \"function\": \"Navigate to Members section\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Tab\",\n            \"function\": \"Navigate to Labels section\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Tab\",\n            \"function\": \"Navigate to Due Dates section\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Label\",\n            \"function\": \"Header indicating this is the Members management section\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Button\",\n            \"function\": \"Close the Members modal or popup\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"TextField\",\n            \"function\": \"Input to search for members\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Icon/Avatar\",\n            \"function\": \"Represents member with initials DD\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Label\",\n            \"function\": \"Displays the name of the member (Demo Demo)\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Button/Icon\",\n            \"function\": \"Select or deselect the member Demo Demo\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card options​_shot_example_3",
+      "type": "Webshot",
+      "content": "The contents in Card_Card options​_shot_example_3\n```json\n{\n    \"scenarios of shot\": \"This page is a modal dialog within a web application that allows users to manage labels. The modal includes a search bar at the top to filter labels, a list of existing labels with different colors and options to either activate (or mark) them with a checkmark or edit them with a pencil icon, and an option at the bottom to create a new label. The dialog can be closed using the 'X' button located at the top right corner.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"TextBox\",\n            \"function\": \"Search labels\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Label\",\n            \"function\": \"Display label 'bug'\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Checkbox\",\n            \"function\": \"Select or mark 'bug' label\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Button\",\n            \"function\": \"Edit 'bug' label\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Label\",\n            \"function\": \"Display label 'important'\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Checkbox\",\n            \"function\": \"Select or mark 'important' label\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Button\",\n            \"function\": \"Edit 'important' label\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Label\",\n            \"function\": \"Display label 'NOW!'\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Button\",\n            \"function\": \"Edit 'NOW!' label\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Label\",\n            \"function\": \"Display label 'easy'\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Button\",\n            \"function\": \"Edit 'easy' label\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Label\",\n            \"function\": \"Display label 'hard'\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"Button\",\n            \"function\": \"Edit 'hard' label\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"Button\",\n            \"function\": \"Create new label\"\n        },\n        {\n            \"index\": 15,\n            \"class\": \"Button\",\n            \"function\": \"Close dialog\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card options​_shot_example_4",
+      "type": "Webshot",
+      "content": "The contents in Card_Card options​_shot_example_4\n```json\n{\n    \"scenarios of shot\": \"This page is a modal dialog titled 'Edit Label' within a web application. The dialog allows users to edit an existing label by changing its title and selecting a color. Users can choose from a palette of colors displayed as selectable squares. There are also options to delete the label or save the changes made to the label.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Modal Header\",\n            \"function\": \"Displays the title of the modal dialog as 'Edit Label'.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Text Field\",\n            \"function\": \"Allows the user to edit the label's title.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Color Picker\",\n            \"function\": \"Displays a palette of color options for the label.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Color Option\",\n            \"function\": \"Selects a color for the label (currently selected color has a checkmark).\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Button\",\n            \"function\": \"Deletes the label when clicked.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Button\",\n            \"function\": \"Saves the changes made to the label.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card options​_shot_example_5",
+      "type": "Webshot",
+      "content": "The contents in Card_Card options​_shot_example_5\n```json\n{\n    \"scenarios of shot\": \"This page is a web application interface allowing users to edit or remove a selected due date. The interface includes a text field to display and input the date, a calendar view for selecting a specific date, and buttons for saving changes or removing the due date completely. The navigation arrows allow users to move between months in the calendar view.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Header\",\n            \"function\": \"Displays the title 'Edit Due Date'.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Close Button\",\n            \"function\": \"Closes the edit due date interface without saving changes.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Label\",\n            \"function\": \"Labels the text input field with 'Date'.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Text Input Field\",\n            \"function\": \"Displays the current due date and allows user to enter a different date.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Calendar Header\",\n            \"function\": \"Shows the currently selected month and year (September 2070).\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Navigation Button\",\n            \"function\": \"Navigate to the previous month in the calendar view.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Navigation Button\",\n            \"function\": \"Navigate to the next month in the calendar view.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Calendar Weekdays Header\",\n            \"function\": \"Displays the weekdays abbreviation from Sunday to Saturday.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Calendar Date Button\",\n            \"function\": \"Select a specific calendar date, with the selected date highlighted (17th).\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Remove Button\",\n            \"function\": \"Removes the due date, effectively clearing the date selection.\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Save Button\",\n            \"function\": \"Saves the selected due date and closes the interface.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card options​_shot_example_6",
+      "type": "Webshot",
+      "content": "The contents in Card_Card options​_shot_example_6\n```json\n{\n    \"scenarios of shot\": \"The page is a web-based task management dashboard, part of a larger application (4ga Board). The interface displays a task list being handled within a visual card-like interface. The left section shows various card categories such as 'Moving cards', 'Members', and 'Tasks', along with a quick overview feature for tasks. This section serves as a navigation panel where users can add tasks and labels, and view due dates and timer labels. The right section presents detailed information regarding a specific card named 'Tasks'. This section enumerates the members involved, labels, due dates, timer options, and notification settings related to the current task. Users are further offered the functionality to add descriptions, tasks, attachments, and comments. The interface supports quick interaction with tasks, including creating new tasks, marking tasks as completed, and organizing tasks by due dates.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Card\",\n            \"function\": \"Display categories or task groupings, like 'Moving cards', 'Members', and 'Tasks'.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Add List Button\",\n            \"function\": \"Button to add a new list or category.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Checkbox\",\n            \"function\": \"Task completion indicator, ticked to mark 'Finished task' as completed.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Button\",\n            \"function\": \"Add new task within the 'Tasks' category.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Label\",\n            \"function\": \"Visual tag or identifier for categories, e.g., 'Sample Label'.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Date Display\",\n            \"function\": \"Show the due date for a task, such as '17.10.2024'.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Timer Label\",\n            \"function\": \"Display and manage timer for tasks, shown as '1:12:05'.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Description Area\",\n            \"function\": \"Section to add or edit descriptions for tasks.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Progress Bar\",\n            \"function\": \"Visual progress indicator of tasks completed and remaining.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Member Icon\",\n            \"function\": \"Display members assigned to tasks.\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Attachment Area\",\n            \"function\": \"Section to add file attachments to tasks.\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Comment Section\",\n            \"function\": \"Add comments to tasks.\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"Show Activity Button\",\n            \"function\": \"Toggle task activity log visibility.\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"Unsubscribe Button\",\n            \"function\": \"Manage task notifications, option to 'Unsubscribe'.\"\n        },\n        {\n            \"index\": 15,\n            \"class\": \"Timer Control\",\n            \"function\": \"Control and display the task timing in '00:00'.\"\n        },\n        {\n            \"index\": 16,\n            \"class\": \"Settings Button\",\n            \"function\": \"Access additional task settings or functions.\"\n        },\n        {\n            \"index\": 17,\n            \"class\": \"Close Button\",\n            \"function\": \"Close the detailed task panel.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card options​_shot_example_7",
+      "type": "Webshot",
+      "content": "The contents in Card_Card options​_shot_example_7\n{\n    \"scenarios of shot\": \"This screen of the web app 4ga Board displays a section for managing attachments. There are currently two files attached: one is an image file, '4gaboards_logo.png,' and the other is a text file, 'Notes from meeting.txt.' The attachments are listed in chronological order along with their upload dates and times. Users can perform actions on these attachments, such as making one a cover. The page also provides an option for adding new attachments at the bottom.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Label\",\n            \"function\": \"Indicates the section title 'Attachments (2)' showing the number of attachments.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Button\",\n            \"function\": \"Allows users to perform actions on attachments such as expand or collapse the section.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Thumbnail Image\",\n            \"function\": \"Displays a preview of the image file '4gaboards_logo.png.'\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Label\",\n            \"function\": \"Shows the file name '4gaboards_logo.png.'\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Timestamp\",\n            \"function\": \"Displays the date and time '12.11.2024 8:22 PM' when the attachment was uploaded.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Checkbox\",\n            \"function\": \"Option to 'Make Cover' for the image file.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Thumbnail Icon\",\n            \"function\": \"Represents the file type (TXT) of the attachment 'Notes from meeting.txt.'\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Label\",\n            \"function\": \"Shows the file name 'Notes from meeting.txt.'\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Timestamp\",\n            \"function\": \"Displays the date and time '12.11.2024 8:24 PM' when the text file was uploaded.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Text Input\",\n            \"function\": \"Provides a field to add a new attachment.\"\n        }\n    ]\n}"
+    },
+    {
+      "id": "Card_Card options​_shot_example_8",
+      "type": "Webshot",
+      "content": "The contents in Card_Card options​_shot_example_8\n```json\n{\n    \"scenarios of shot\": \"This screenshot depicts a comments section of the 4ga Board web application. The page allows users to view existing comments, add new comments, and potentially edit or delete comments. The comments are listed sequentially with user avatars, names, timestamps, and the actual comment content visible. The layout is user-friendly, providing an overview of user interaction and collaboration within a given board or task. The ability to 'Show activity' suggests additional functionalities that might allow users to track changes or additional user actions related to this section.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Text\",\n            \"function\": \"Comments section header indicating the number of comments and an option to add comments.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Button\",\n            \"function\": \"Click to toggle or expand 'Show activity' for additional options or information.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Textbox\",\n            \"function\": \"Field for the user to input a new comment.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Avatar\",\n            \"function\": \"Displays the user's profile image associated with the comment.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Text\",\n            \"function\": \"Displays the name of the user who posted the comment.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Text\",\n            \"function\": \"Shows the date and time when the comment was posted.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Text\",\n            \"function\": \"The actual content of the user's comment.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Icon\",\n            \"function\": \"Edit icon allowing a user to modify their comment.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Icon\",\n            \"function\": \"Delete icon allowing a user to remove their comment.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Card options​",
+      "type": "Section",
+      "content": "Card options​\n---------------\n\nThe card view is the best way to change all the informations, options and details about your card. If the view gets cluttered, you can hide certain elements (description, tasks, attachments, comments) by clicking on the `-` icon next to them. Click the `+` icon to show them again. This section will explain all of them from the top to the bottom.\n\n![Open card view] (Card_Card options​_shot_example_1)\n\n1. Title: you can click on it to change the cards title (`ENTER` to accept)\n2. Card view icons on the top-right corner: click the `bin` icon to delete card (it will open pop-up to confirm deleting), three dots icon will open the card menu explained before, the `X` button will close the card view.\n3. List selection: Below the title of the card, it shows in which list the card is situated. Clicking on it will open dropdown list. Here you can select in which list the card should be moved (it will appear at the top of the list).\n4. Members: Click on the plus icon to toggle assigning members to the card. Tick symbol indicates whether the member is assinged or not.\n\n![Card members option] (Card_Card options​_shot_example_2)\n\nNote that only members that are added to the current board can be assigned to the card. If you don't see a member that should be available here and you are a project manager, add the member in [board options](module_board).\n\n1. Labels: Click on the plus icon to add labels to your card. Tick symbol indicates whether or not the label is used. You can also manage your labels here: create new labels (click on `Create new label`) or editing existing ones (click on the `pencil` icon).\n\n![Card labels] (Card_Card options​_shot_example_3) ![Card labels edit] (Card_Card options​_shot_example_4)\n\n1. Due date: Here you can add (click on `+` icon)/edit (`pencil` icon) the due date for the card. If the due date is furhter than two weeks, it will appear grey; if it is in the range of two weeks - yellow; if overdue - red.\n\n![Card due date] (Card_Card options​_shot_example_5)\n\n7. Timer: Using timer you can track the time it takes you to complete the task. Click on the timer to start/pause it, and click `pencil` button to edit the time manually or reset timer. When the timer runs it appears green.\n8. Notifications: Here you can subscribe or unsubscribe from the notifications on this card. While subscribed you will receive a notification (`bell` icon at the dashboard in the top-right corner) whenever someone adds comment to the card.\n9. Description: Write the description for your card (to save click `Save` button or press `Ctrl` + `Enter`). See \"Text editor\" section below for a detailed guide.\n10. Tasks: In this section you can add/edit tasks in your card or mark them complete. A small line indicates the portion of tasks completed, ranging from red to green. It remains empty if there are no finished tasks or when there are no tasks added.\n    * To add tasks, click the `+` icon or `Add Task` button.\n    * To toggle the task complete, click the square next to the task description.\n    * To rename the task, click on the task description; upon finishing press `Enter` or click `Save`.\n    * To delete task, hover over it until `ellipsis` icon appears; click it and select `delete task`.\n    * You can toogle tasks visibility on the board: to do this, click on the `triangle` icon near the cards taskbar visible on the list.\n    * Tasks can be assigned with a member or a due date: to do this click on the `ellipsis` icon and choose appriopriate option (\"Edit Due Date\" or \"Edit Members\"). This informations will be displayed at the right side of the appriopriate task. This can be done in both card view and directly on the board view (when tasks are expanded).\n\n![Card tasks options] (Card_Card options​_shot_example_6)\n\n11. Attachments: Here you can add attachments to your card by either `Ctrl` + `V`, dropping them on the card or clicking on `Add attachment` field and selecting from the disc. If the attachment is an image, you can use it as a cover that will appear in the list view. To do this, click on `Make cover` button near the desired image. To remove cover, use `Remove cover` button. To remove the attachment completely, hover over it, click on the `pencil` icon and select `Delete attachment`.\n\n![Card attachments and cover] (Card_Card options​_shot_example_7)\n\n12. Comments: here you can add (start writing in the box and press `Ctrl` + `Enter` or `Add comment` button), edit (`pencil` icon) or delete (`bin` icon) coments to the card , using the same text editor as in the description field.\n\n![Card comments] (Card_Card options​_shot_example_8)\n"
+    },
+    {
+      "id": "Card_Text editor​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Card_Text editor​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The web app page depicted in the screenshot is a text editor interface with a split-screen view. On the left side, there is a markdown editor, where users can write or edit markdown text, and on the right side, there is the preview of the formatted document. The toolbar at the top provides options to format the text, insert images, create lists, and add other markdown elements. The page also has buttons for saving or canceling the changes, illustrating an environment where the user is working on editing or drafting a text document with markdown support.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Bold text formatting\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Italic text formatting\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Strikethrough text formatting\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Inline code formatting\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Link insertion\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Image insertion\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Unordered list creation\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Ordered list creation\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Checkbox item insertion\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Quote block formatting\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Code block formatting\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Horizontal rule insertion\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"Toolbar Button\",\n            \"function\": \"Text color change\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"Markdown Editor\",\n            \"function\": \"Text editing area for markdown input\"\n        },\n        {\n            \"index\": 15,\n            \"class\": \"Preview Area\",\n            \"function\": \"Display the formatted version of markdown input\"\n        },\n        {\n            \"index\": 16,\n            \"class\": \"Button\",\n            \"function\": \"Cancel editing\"\n        },\n        {\n            \"index\": 17,\n            \"class\": \"Button\",\n            \"function\": \"Save changes\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Card_Text editor​",
+      "type": "Section",
+      "content": "Text editor​\n---------------\n\nIn 4ga Boards we are using very powerful markdown editor with unique features (marked by bold text). In the bottom-right corner of text editor box there are three small dots: drag them with a mouse to make the box bigger/smaller. The working view should look like this (notice the yellow text local changes - it shows that the text is still in edit mode and the changes are not yet registered on the server):\n\n![Text editor showcase] (Card_Text editor​_shot_example_1)\n\nAs the text editor is a markdown editor, it follows typical syntax to other editors like this. More detailed information on any of the options of the markdown editor can be found here: [basic syntax](https://www.markdownguide.org/basic-syntax/).\n\n* Editor options are as follows (from left to right; you can click them or use button combination):\n* Bold text (CTRL + b)\n* Italic text (CTRL + i)\n* Strikethorugh text (CTRL + SHIFT + x)\n* Insert HR/horizontal bar (CTRL + h)\n* Insert title (CTRL + number from 1 to 6, depending on the size); alternatively you can use hashtags.\n* Add link (CTRL + l)\n* Insert a quote (CTRL + q)\n* Insert code (CTRL + j)\n* Insert codeblocks (CTRL + SHIFT + j). After creating default codeblock, you can add **custom tags**:\n  + The first tag just after opening symbol (`````) is a language shortcut, e.g. ````js` will highlight javascript syntax.\n  + The second tag is for showing line numbers ````js showLineNumbers`\n  + The third that indicates which lines should be highlighted ````js showLineNumbers {1, 3-4}` - in this example the lines 1, 3 and 4 highlighted.\n* Insert comment (CTRL + /)\n* Add image (CTRL + k)\n* Add table\n* Add unordered list (CTRL + SHIFT + u)\n* Add ordered list (CTRL + SHIFT + o)\n* Add checked list (CTRL + SHIFT + c)\n* Open help (opens the [basic syntax](https://www.markdownguide.org/basic-syntax/) site)\n* **Add issue link - with this feature you create a link from card to GitHub issue or pull request. Some ways to do it:**\n  + click the add issue button and type issue or PR number or write: #(number of the issue), e.g. `#1`.\n  + instead of hashtag you can use: GH-(number), e.g. `GH-1`\n  + to link issue or PR in fork use: (fork name)#(issue number), e.g. `samplefork#1`\n  + to link issue or PR in specific repository use:(username or organization name)/(repository name)#(issue number), e.g. `RARgames/4gaboards#1`\n* **Add colored text**\n  + use button to select desired color or type in color name like in the example: `<!--black-->This text wil be black<!--black-end-->`\n  + available colors: black, grey, white, brown, red, purple, pink, green, lime, yellow, blue, cyan, orange.\n\nView options:\n\n* Edit code (ctrl + 7) - shows only the edited text with markdown symbols\n* Live code (ctrl + 8) - shows both markdown symbols (on left) and live preview of the text (on the right)\n* Preview code (ctrl + 9) - shows just the text preview\n* Toggle fullscreen (ctrl + 0)\n\nSome functions that don't have special buttons:\n\n* **Add commit link** - type:\n  + to link commit use (commit hash), e.g. `1d7e95e8d496564ac5f69a06db60df79a6a585c4`\n  + to link commit in fork use (fork name)@(commit hash), e.g. `samplefork@1d7e95e8d496564ac5f69a06db60df79a6a585c4`\n  + to link commit in repository use (username)/(repository name)@(commit hash), e.g. `RARgames/4gaBoards@1d7e95e8d496564ac5f69a06db60df79a6a585c4`\n* **Add mention** - type:\n  + to mention user use @(username), e.g. `@RARgames`\n\nAlternatively you can paste links to link commit, commit comment, issue or PR, issue or PR comment, user.\n\nSpecial power: if you have read so far, you can use special ability: add invisible comment with: `<!-- This comment will be invisible so I can say whatever I want -->`"
+    },
+    {
+      "id": "For Users",
+      "type": "For_User_Doc",
+      "content": "For Users"
+    },
+    {
+      "id": "Structure Overview",
+      "type": "Module",
+      "content": "Structure Overview"
+    },
+    {
+      "id": "Project",
+      "type": "Module",
+      "content": "Project"
+    },
+    {
+      "id": "List",
+      "type": "Module",
+      "content": "List"
+    },
+    {
+      "id": "Sidebar",
+      "type": "Module",
+      "content": "Sidebar"
+    },
+    {
+      "id": "User Settings",
+      "type": "Module",
+      "content": "User Settings"
+    },
+    {
+      "id": "Views Description",
+      "type": "Module",
+      "content": "Views Description"
+    },
+    {
+      "id": "Useful Shortcuts",
+      "type": "Module",
+      "content": "Useful Shortcuts"
+    },
+    {
+      "id": "List_introduce_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in List_introduce_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"This is a kanban-style web app interface showing a series of columns categorizing tasks or cards based on their current status. The columns are labeled as Open, Todo, In Progress, To Test, and Done. Each column has an option to add new cards, indicating the initial state of organizing tasks in these categories. This layout provides visual management of tasks as they move through various workflow stages. Currently, all columns show zero cards, suggesting the board is empty and awaits tasks to be added and organized.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Column Header\",\n            \"function\": \"Displays the title of the column representing the task status (Open)\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Column Header\",\n            \"function\": \"Displays the title of the column representing the task status (Todo)\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Column Header\",\n            \"function\": \"Displays the title of the column representing the task status (In Progress)\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Column Header\",\n            \"function\": \"Displays the title of the column representing the task status (To Test)\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Column Header\",\n            \"function\": \"Displays the title of the column representing the task status (Done)\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Card Counter\",\n            \"function\": \"Displays the number of cards currently in the column (0 cards for Open)\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Card Counter\",\n            \"function\": \"Displays the number of cards currently in the column (0 cards for Todo)\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Card Counter\",\n            \"function\": \"Displays the number of cards currently in the column (0 cards for In Progress)\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Card Counter\",\n            \"function\": \"Displays the number of cards currently in the column (0 cards for To Test)\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Card Counter\",\n            \"function\": \"Displays the number of cards currently in the column (0 cards for Done)\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Button\",\n            \"function\": \"Allows a user to create and add a new card to the Open column\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Button\",\n            \"function\": \"Allows a user to create and add a new card to the Todo column\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"Button\",\n            \"function\": \"Allows a user to create and add a new card to the In Progress column\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"Button\",\n            \"function\": \"Allows a user to create and add a new card to the To Test column\"\n        },\n        {\n            \"index\": 15,\n            \"class\": \"Button\",\n            \"function\": \"Allows a user to create and add a new card to the Done column\"\n        },\n        {\n            \"index\": 16,\n            \"class\": \"Options Menu\",\n            \"function\": \"Provides additional settings or actions related to the column (Open)\"\n        },\n        {\n            \"index\": 17,\n            \"class\": \"Options Menu\",\n            \"function\": \"Provides additional settings or actions related to the column (Todo)\"\n        },\n        {\n            \"index\": 18,\n            \"class\": \"Options Menu\",\n            \"function\": \"Provides additional settings or actions related to the column (In Progress)\"\n        },\n        {\n            \"index\": 19,\n            \"class\": \"Options Menu\",\n            \"function\": \"Provides additional settings or actions related to the column (To Test)\"\n        },\n        {\n            \"index\": 20,\n            \"class\": \"Options Menu\",\n            \"function\": \"Provides additional settings or actions related to the column (Done)\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "List_introduce",
+      "type": "Section",
+      "content": "List_introduce\nIn 4ga Boards, lists are columns on the board representing different stages or categories of the workflow. For example, kanban board template comes with 5 empty lists:\n\n![Kanban board template] (List_introduce_shot_example_1)"
+    },
+    {
+      "id": "List_List navigation​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in List_List navigation​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"This image depicts a kanban board-style web application with several task cards organized into different columns based on their progress status. The columns available on the board are labeled 'Open', 'To Do', 'In Progress', 'To Test', and 'Done'. Each column displays the number of cards it contains, and their respective tasks include information such as labels, due dates, and progress indicators. Below the task cards, there is the option to add new cards to the board. Task labels and brief descriptions help users understand the priority and nature of each task. Users can delineate tasks with labels like 'bug' or 'important', track their deadlines, and manage task progression across the board. The board aids in task management, tracking, and collaboration by visualizing work items from start to completion.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Column\",\n            \"function\": \"Display task cards categorized by progress status\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Task Card\",\n            \"function\": \"Provide details about a specific task\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Label\",\n            \"function\": \"Indicate task category or priority\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Date\",\n            \"function\": \"Show task's due date\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"User Avatar\",\n            \"function\": \"Represent task assignee\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Progress Bar\",\n            \"function\": \"Track completion status of sub-tasks\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Add Card Button\",\n            \"function\": \"Allows adding new task cards\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "List_List navigation​",
+      "type": "Section",
+      "content": "List navigation​\n---------------\n\nTo move list into different spot on the same board, simply drag and drop it where you want. You can't, however, move a list to different board or project.\n\nIf you have many lists that don't fit in a browser window, you can move around by using `Ctrl` + `Scroll`, holding on an empty space in the board (when a hand icon is visible) or by using scrollbar at the bottom.\n\nIf the list is full of cards, you can scroll through them using mouse scroll (while hovering over the list) or with scrollbar at the right side of the list.\n\nYou can hide/unhide all lists (empty or with cards) by clicking on the little triangle button in the top-left corner of the list (right next to its name). This feature is very handy for decluttering your board view and/or hiding unnecesarry lists. Hidden list will have the number of holded cards displayed on them (see screenshot).\n\n![List visibility toggle] (List_List navigation​_shot_example_1)\n"
+    },
+    {
+      "id": "List_Creating, editing and deleting the list​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in List_Creating, editing and deleting the list​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The web app 4ga Board displayed is a project management tool interface showing different task categories or statuses in a kanban board layout. The current interface showcases three columns labeled 'TODO', 'In Progress', and an empty column ready to be configured. Each column allows for adding cards to facilitate task management. Additionally, 'In Progress' column offers a contextual menu providing options to either rename the column, add a new task card, or delete the column/list altogether.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Column Header\",\n            \"function\":\"Displays the column name and reveals the toggle/option for actions\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Card Counter\",\n            \"function\":\"Shows the number of cards/tasks within the column\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Add Card Button\",\n            \"function\":\"Initiates adding a new card/task to the column\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Column Options Button\",\n            \"function\":\"Displays a menu for additional column options, such as editing and deleting the column\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Column Options Menu\",\n            \"function\":\"Provides options: Edit Name, Add Card, and Delete List for column actions\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Add List Button\",\n            \"function\":\"Allows for creating a new column on the board\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "List_Creating, editing and deleting the list​",
+      "type": "Section",
+      "content": "Creating, editing and deleting the list​\n---------------\n\nTo create a list, click on the \"+add list\" button on the board, write a name and confirm it by clicking on the green \"Add List\" button. It will automatically open a new pop-up window to create a next list. If you don't want to do it, simply click \"Cancel\" or start doing anything else and it will automatically close.\n\nYou can edit the list name by clicking on the three dots in the top-right corner of a list. It will open a menu, in which you can also add card and delete list (clicking it will open an additional confirmation pop-up). By clicking on \"Add Card\" you can create a new card at the bottom of the list.\n\n![List context menu] (List_Creating, editing and deleting the list​_shot_example_1)"
+    },
+    {
+      "id": "Project_introduce_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Project_introduce_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The 4ga Board web application's dashboard displays a clearly defined workspace for project management. This page is divided into multiple sections: a header, a sidebar menu for navigation, and a main content area showing specific projects. The header contains the app logo, page title, and user settings. The sidebar allows for quick access to various projects and includes options to add new projects or boards. The main content area lists the projects as clickable cards, offering the user an overview of their workspace at a glance.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Header\",\n            \"function\": \"Displays the application name and provides access to user settings and profile options.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Sidebar Menu\",\n            \"function\": \"Navigating through different project categories and functionalities like adding new projects or boards.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Project Cards\",\n            \"function\": \"Displays active projects available for the user to view or manage.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Search Box\",\n            \"function\": \"Filters projects within the sidebar for easy access.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Button\",\n            \"function\": \"Add Project - Allows the user to initiate the creation of a new project.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Icon\",\n            \"function\": \"User Profile/Settings - Provides access to user-specific settings or profile information.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Icon\",\n            \"function\": \"App Settings - Allows access to application-wide settings and configurations.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Project_introduce_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in Project_introduce_shot_example_2\n```json\n{\n    \"scenarios of shot\": \"This page is the dashboard of the 4ga Board web application. It presents a user interface for managing and viewing projects and boards. The interface comprises a sidebar on the left for navigation and filtering of projects, and a main content area displaying projects as cards. The header contains navigation and user options. There are options to add new projects and boards located in different areas of the page.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Header\",\n            \"function\": \"Displays the app logo and title 'Dashboard'.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Search Box\",\n            \"function\": \"Allows users to filter projects.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Sidebar Navigation\",\n            \"function\": \"Displays a list of project categories (Personal, 4ga, Work, 4ga Boards).\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Project Card\",\n            \"function\": \"Displays individual projects within categories. This includes 'Personal', '4ga', 'Work', and '4ga Boards'.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Notification Icon\",\n            \"function\": \"Displays notifications and alerts.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Settings Icon\",\n            \"function\": \"Provides access to app settings.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"User Profile Icon\",\n            \"function\": \"Displays user profile and settings.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Button\",\n            \"function\": \"Add Project - Initiates the process to add a new project located at the top right corner.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Button\",\n            \"function\": \"Add Project - Initiates the process to add a new project located at the bottom of the sidebar.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button\",\n            \"function\": \"Add Board - Initiates the process to add a new board located at the bottom of the sidebar.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Project_introduce_shot_example_3",
+      "type": "Webshot",
+      "content": "The contents in Project_introduce_shot_example_3\n```json\n{\n    \"scenarios of shot\": \"This page is part of the navigation panel in the web app '4ga Boards'. It shows the project management options with a focus on board manipulation. The panel is expandable, and it appears to have a context menu with options related to project management such as renaming the project, accessing project settings, and adding a new board.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Expandable Panel\",\n            \"function\": \"Displays the parent project ('4ga Boards') with options to expand or collapse.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Icon Button\",\n            \"function\": \"Shows additional options in a dropdown menu for managing the project or boards.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Button\",\n            \"function\": \"Rename Project - Allows the user to change the project's name.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Button\",\n            \"function\": \"Project Settings - Opens the project configuration settings.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Button\",\n            \"function\": \"Add Board - Enables the creation of a new board in the project.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Project_introduce",
+      "type": "Section",
+      "content": "Project_introduce\nProjects are the highest structure of 4ga boards workflow. All of the projects can be accessed from the dashboard view (3) or using the sidebar (2).\n\n![Dashboard view] (Project_introduce_shot_example_1)\n\nIf you ever wish to come back to dashboard view, you can do so by clicking 4ga Boards logo in header (1). In addition, if you have administration rights to any of the projects, you can customize them in [project settings](module_project-settings).\n\nTo create a project, simply click on the \"+Add project\" button. This button is located at the bottom of the sidebar or at the top-right corner while you are in the dashboard. After clicking one of the buttons, the prompt for naming the project will appear.\n\n![Add project buttons] (Project_introduce_shot_example_2)\n\nNOTE: If you don't see the option to create project it means you lack the administrator rights. In this case you can only use the projects you were already added to by the administrator.\n\nTo access quick menu for the projects (available for project managers) hover over the project name and click three dot button. In this menu you can rename your project, go to [project settings](module_project-settings) or add a new [board](module_board).\n\n![Project context menu] (Project_introduce_shot_example_3)"
+    },
+    {
+      "id": "User Settings_introduce_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in User Settings_introduce_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The page displays a settings navigation panel for the web application '4GA Boards.' It is characterized by a sidebar menu that allows users to manage different aspects of their account. The menu consists of multiple categories users can select to access and modify various settings, such as profile, preferences, account options, authentication details, and general information about the application. The current selection is shown with a highlighted background, indicating active engagement with that section. The layout is straightforward, aiding quick navigation for users to customize their app experience.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Image\",\n            \"function\":\"Display the logo for 4GA Boards\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Text\",\n            \"function\":\"Label 'Settings:' as the section focus\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Icon\",\n            \"function\":\"Symbolize the gear for settings\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Text\",\n            \"function\":\"Represents the 'Settings' menu title\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Button\",\n            \"function\":\"Navigates to 'Profile' settings\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Button\",\n            \"function\":\"Navigates to 'Preferences' settings\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Button\",\n            \"function\":\"Navigates to 'Account' settings\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Button\",\n            \"function\":\"Navigates to 'Authentication' settings\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Button\",\n            \"function\":\"Navigates to 'About' information\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "User Settings_introduce",
+      "type": "Section",
+      "content": "User Settings_introduce\nThe personal and general settings panel looks like this:\n\n![Settings sidebar] (User Settings_introduce_shot_example_1)"
+    },
+    {
+      "id": "User Settings_Profile​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in User Settings_Profile​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The page displayed is a user profile editing section of a web application. It allows the user to change their profile picture, name, phone number, and organization details. The page has a dark theme background with a prominent circular profile picture at the center which can be edited, followed by text fields for the user's name, phone, and organization. There is a Save button at the bottom to save any changes made.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Label\",\n            \"function\": \"Displays the title 'Profile' indicating the purpose of the page.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Profile Picture\",\n            \"function\": \"Shows the current profile picture, which can be edited.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Button\",\n            \"function\": \"Edit - Allows the user to change the profile picture.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Label\",\n            \"function\": \"Displays 'Name' indicating the field for user's name.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Text Field\",\n            \"function\": \"Input area for the user to modify their name.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Label\",\n            \"function\": \"Displays 'Phone' indicating the field for user's phone number.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Text Field\",\n            \"function\": \"Input area for the user to modulate their phone number.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Label\",\n            \"function\": \"Displays 'Organization' indicating the field for user's organization details.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Text Field\",\n            \"function\": \"Input area for the user to change their organization details.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button\",\n            \"function\": \"Save - Saves all changes made to the profile details.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "User Settings_Profile​",
+      "type": "Section",
+      "content": "Profile​\n---------------\n\nIn the profile settings you can add an avatar (from the disc), change your displayed name and add additional informations such as phone and organization name. Remember to click on the `Save` button!\n\n![Profile settings] (User Settings_Profile​_shot_example_1)\n"
+    },
+    {
+      "id": "User Settings_Preferences​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in User Settings_Preferences​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The page is a user preferences setting interface for a web application called 4ga Board. It provides users with the ability to modify some personal settings related to their experience on the platform. The page is organized in a tabular format with columns for Preference description, settings adjustments, current values, and detailed descriptions for each setting. These settings allow for toggling subscriptions, modifying the sidebar display, and selecting a preferred language for the application.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Text\",\n            \"function\": \"Displays 'Preferences' as the page title.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Table Header\",\n            \"function\": \"Displays the columns 'Preferences', 'Modify Settings', 'Current Value', 'Description'.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Text\",\n            \"function\": \"Displays 'Subscribe to my own cards'.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Toggle Switch\",\n            \"function\": \"Modify the setting to subscribe or unsubscribe from own cards.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Text\",\n            \"function\": \"Displays 'Disabled' as the current value for subscription setting.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Text\",\n            \"function\": \"Displays description 'Automatically subscribe to cards that I create.'\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Text\",\n            \"function\": \"Displays 'Compact Sidebar'.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Toggle Switch\",\n            \"function\": \"Toggle the sidebar size setting to compact or regular.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Text\",\n            \"function\": \"Displays 'Disabled' as the current value for the compact sidebar setting.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Text\",\n            \"function\": \"Displays description 'This option makes the sidebar narrower.'\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Text\",\n            \"function\": \"Displays 'Language'.\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Dropdown\",\n            \"function\": \"Select language preference for the application.\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"Text\",\n            \"function\": \"Displays 'English' as the current language setting.\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"Text\",\n            \"function\": \"Displays description 'Select the language you want to use in 4ga Boards.'\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "User Settings_Preferences​_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in User Settings_Preferences​_shot_example_2\n```json\n{\n    \"scenarios of shot\": \"The image displays a vertical navigation menu of a web application titled '4ga Board'. The menu is divided into two main sections: 'Settings' and 'Instance Settings'. The 'Settings' section includes options for Profile, Preferences, Account, Authentication, and About. The 'Instance Settings' section contains options for Users and Settings. These options likely allow users to navigate to different pages or functionalities within the web application. The Preferences option is highlighted, indicating that it is the currently selected or active item, suggesting the user is on a page related to preferences at this moment.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Menu Heading\",\n            \"function\": \"Indicate the section name 'Settings'.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Menu Item\",\n            \"function\": \"Navigate to Profile settings.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Menu Item\",\n            \"function\": \"Navigate to Preferences settings.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Menu Item\",\n            \"function\": \"Navigate to Account settings.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Menu Item\",\n            \"function\": \"Navigate to Authentication settings.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Menu Item\",\n            \"function\": \"Navigate to About page.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Menu Heading\",\n            \"function\": \"Indicate the section name 'Instance Settings'.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Menu Item\",\n            \"function\": \"Navigate to Users settings.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Menu Item\",\n            \"function\": \"Navigate to Instance settings.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "User Settings_Preferences​_shot_example_3",
+      "type": "Webshot",
+      "content": "The contents in User Settings_Preferences​_shot_example_3\n```json\n{\n    \"scenarios of shot\": \"The page displays a vertical navigation menu which is likely part of a settings or administration section of a web application. This menu is divided into two main segments: 'Settings' and 'Instance Settings'. Each segment contains a list of options that can be selected. The currently active or selected option appears to be 'Preferences', indicated by its highlighted background.\",\n\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Menu Section\",\n            \"function\": \"Settings\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Menu Item\",\n            \"function\": \"Profile\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Menu Item\",\n            \"function\": \"Preferences\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Menu Item\",\n            \"function\": \"Account\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Menu Item\",\n            \"function\": \"Authentication\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Menu Item\",\n            \"function\": \"About\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Menu Section\",\n            \"function\": \"Instance Settings\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Menu Item\",\n            \"function\": \"Users\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Menu Item\",\n            \"function\": \"Settings\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "User Settings_Preferences​",
+      "type": "Section",
+      "content": "Preferences​\n---------------\n\nIn the preferences section you can choose the language in which you will see 4ga Boards. You can also set if you want to be automatically subscribed to the cards created by you (see [card](module_card#card-options), card options section).\n\n![User preferences settings] (User Settings_Preferences​_shot_example_1)\n\nThe option \"Compact sidebar\" let's you choose the style of your sidebar (applicable for both settings and board sidebars).\nIf you enable it, you sidebar will be slim. This option is great if you prefer minimalistic design and more room for your lists in the board view.\n\n![Compact sidebar width] (User Settings_Preferences​_shot_example_2)\n\nIf you disable it, the sidebar will be bulkier, which might be useful if you have long project names.\n\n![Normal sidebar width] (User Settings_Preferences​_shot_example_3)\n"
+    },
+    {
+      "id": "User Settings_Account​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in User Settings_Account​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"This page appears to be a user account management interface where users can edit their account information, specifically the username and email. Upon selecting the option to edit the username, a modal dialog appears prompting the user to enter a new username and their current password for confirmation. The interface prioritizes user security and privacy, requiring password authentication to update the username.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Header\",\n            \"function\": \"Displays the title 'Account' indicating the user's account settings page.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Button\",\n            \"function\": \"Option to 'Edit Username', triggers a modal to appear for changing the username.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Button\",\n            \"function\": \"Option to 'Edit E-mail', presumably opens a modal for email editing (though not shown in the image).\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Modal\",\n            \"function\": \"Container for the content that appears when editing the username.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Modal Title\",\n            \"function\": \"Displays 'Edit Username', indicating the purpose of the modal.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Text Label\",\n            \"function\": \"Label for 'New username', indicating where to enter the desired new username.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Text Input\",\n            \"function\": \"Field for entering the new username.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Text Label\",\n            \"function\": \"Label for 'Current password', indicating where to enter the current password.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Password Input\",\n            \"function\": \"Field for entering the current password, required for authentification.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button\",\n            \"function\": \"Toggle button to show or hide the current password being typed for security reasons.\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Button\",\n            \"function\": \"'Save' button to save the new username if the current password is correct.\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"Close Button\",\n            \"function\": \"Closes the modal without saving changes.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "User Settings_Account​",
+      "type": "Section",
+      "content": "Account​\n---------------\n\nHere you can change your username and/or e-mail adress. For both changes you will need to input your current password.\n\n![Account settings] (User Settings_Account​_shot_example_1)\n"
+    },
+    {
+      "id": "User Settings_Authentication​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in User Settings_Authentication​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"This page is a password reset or change interface within a web application. The user is presented with an 'Edit Password' form, likely invoked after selecting a password edit option elsewhere in the application. The interface aims to allow users to input a new password along with their current password for verification purposes before making the change. The page features a modal dialog box in the foreground, overlaid on a dark, simple background, likely to prevent distraction and focus the user’s attention on the password change task. The modal provides input fields for the new and current passwords and options to make the password visible or hidden during entry. A 'Save' button is present to submit changes. It appears to focus on straightforward usability and security with visual indicators for password visibility and clear action buttons.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Label\",\n            \"function\": \"Displays the heading 'Authentication' to indicate the purpose of this page.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Breadcrumb or Navigation link\",\n            \"function\": \"Indicates the current location or action, showing 'Edit Password' as the active task or section.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Modal Header\",\n            \"function\": \"Displays 'Edit Password' which is the title or purpose of this modal dialog box.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Button (close)\",\n            \"function\": \"Allows user to close the 'Edit Password' modal dialog.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Label\",\n            \"function\": \"Indicates the input field is for the 'New password'.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Password Input Field\",\n            \"function\": \"Field where user enters their new password.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Button (toggle visibility)\",\n            \"function\": \"Allows user to toggle visibility of the new password entry (show/hide password).\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Label\",\n            \"function\": \"Indicates the input field is for the 'Current password'.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Password Input Field\",\n            \"function\": \"Field where user enters their current password.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button (toggle visibility)\",\n            \"function\": \"Allows user to toggle visibility of the current password entry (show/hide password).\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Button\",\n            \"function\": \"Allows users to save the entered new password if they have provided the correct current password.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "User Settings_Authentication​",
+      "type": "Section",
+      "content": "Authentication​\n---------------\n\nHere you can change your current password.\n\n![Authentication settings] (User Settings_Authentication​_shot_example_1)\n"
+    },
+    {
+      "id": "User Settings_About​_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in User Settings_About​_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"This webpage provides information about the 4ga Boards application, primarily presenting its current version and latest version. It includes a titular image with branding alongside links to important resources such as documentation, official website, Github repository, privacy policy, and terms of service. The design is clean and concise, aimed to inform users of the basic details and guide them to further sources via hyperlinks.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Text\",\n            \"function\":\"Displays the title 'About 4ga Boards'\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Image\",\n            \"function\":\"Brand logo of 4ga Boards\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Text\",\n            \"function\":\"Shows the text 'Version: 3.0.1'\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Text\",\n            \"function\":\"Shows the text 'Latest version: 3.0.1'\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Hyperlink\",\n            \"function\":\"Provides link to Documentation\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Hyperlink\",\n            \"function\":\"Provides link to the official Website\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Hyperlink\",\n            \"function\":\"Provides link to Github\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Hyperlink\",\n            \"function\":\"Provides link to Privacy Policy\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Hyperlink\",\n            \"function\":\"Provides link to Terms of Service\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "User Settings_About​",
+      "type": "Section",
+      "content": "About​\n---------------\n\nSection providing information about your current build version, latest available version of 4ga Boards and useful links: [4ga Boards](https://4gaboards.com), [GitHub](https://github.com/RARgames/4gaBoards), [Privacy Policy](https://4gaboards.com/privacy-policy) and [Terms of Service](https://4gaboards.com/terms-of-service).\n\n![About] (User Settings_About​_shot_example_1)"
+    },
+    {
+      "id": "Useful Shortcuts_introduce",
+      "type": "Section",
+      "content": "Useful Shortcuts_introduce\nThis page presents shortcuts that helps you use 4ga Boards more effectively.\n\n`Ctrl` + `Enter`\n\nUse it to quickly save text changes, e.g. while editing description, comments or adding a task. If you use it while creating a new card it will automatically open card view.\n\n`Shift` + `Scroll`"
+    },
+    {
+      "id": "Sidebar_introduce_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Sidebar_introduce_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"This is a sidebar navigation menu of a web application called 4ga Boards. The menu is likely part of a dashboard, as indicated by the title at the top. It allows users to filter projects or navigate between different project categories. Additionally, the sidebar provides options to add new projects or boards, suggesting an emphasis on project management functionalities.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Logo\",\n            \"function\": \"Displays the logo of the 4ga Boards web app.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Title\",\n            \"function\": \"Shows the title 'Dashboard' indicating the current section of the web app.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"SearchBar\",\n            \"function\": \"Allows users to filter projects by typing keywords.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Button\",\n            \"function\": \"A search/filter button to initiate the project filtering process.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"ToggleArrow\",\n            \"function\": \"Expands or collapses the 'Personal' project category.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"ToggleArrow\",\n            \"function\": \"Expands or collapses the '4ga' project category.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"ToggleArrow\",\n            \"function\": \"Expands or collapses the 'Work' project category.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"ToggleArrow\",\n            \"function\": \"Expands or collapses the '4ga Boards' project category.\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"ProjectLink\",\n            \"function\": \"Navigates to the 'Important Project' page.\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"ProjectLink\",\n            \"function\": \"Navigates to the 'Mettings' page.\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"ProjectLink\",\n            \"function\": \"Navigates to the 'Administration' page.\"\n        },\n        {\n            \"index\": 12,\n            \"class\": \"ProjectLink\",\n            \"function\": \"Navigates to the 'R&D' page.\"\n        },\n        {\n            \"index\": 13,\n            \"class\": \"ProjectLink\",\n            \"function\": \"Navigates to the 'Testing' page.\"\n        },\n        {\n            \"index\": 14,\n            \"class\": \"ToggleArrow\",\n            \"function\": \"Expands or collapses the 'New Project' project category.\"\n        },\n        {\n            \"index\": 15,\n            \"class\": \"Button\",\n            \"function\": \"Initiates the process to add a new project.\"\n        },\n        {\n            \"index\": 16,\n            \"class\": \"Button\",\n            \"function\": \"Initiates the process to add a new board.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Sidebar_introduce_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in Sidebar_introduce_shot_example_2\n```json\n{\n    \"scenarios of shot\": \"The screenshot displays the sidebar navigation panel of a web application named '4ga Boards'. This sidebar appears to allow users to navigate between various boards and projects within the app. At the top of the sidebar, there is a search bar for filtering or finding specific boards or projects. Below the search bar, navigation elements provide access to different board categories, in this case, there is a category labeled as 'Meetings'. The sidebar also displays information about the current number of boards relative to the total number of projects.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Search Bar\",\n            \"function\": \"To search or filter boards and projects based on the input query.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Button (B with shuffle icon)\",\n            \"function\": \"Potentially to randomize or shuffle the list of boards/projects displayed.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Text Display\",\n            \"function\": \"Shows the current count of boards (1/5 projects).\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Dropdown Toggle\",\n            \"function\": \"Expands or collapses the '4ga Boards' category to show more options or subcategories.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Category Label\",\n            \"function\": \"Indicates the category or grouping of boards, such as '4ga Boards'.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Navigation Item\",\n            \"function\": \"Provides a link or access to the 'Meetings' board within the '4ga Boards' category.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Sidebar_introduce",
+      "type": "Section",
+      "content": "Sidebar_introduce\nAll the time while using the 4ga Boards you can use the sidebar. It let's you quickly manage and navigate thorough your projects and boards. Here is how it looks like:\n\n![Sidebar view] (Sidebar_introduce_shot_example_1)\n\n### Some actions you can perform within sidebar:​\n\n1. You can change sidebar width inside [personal settings](module_settings).\n   * You can show/hide the sidebar using the bar and arrow icon in the top-left corner, left of 4ga Boards logo.\n2. You can filter your projects or boards using the filtering function at the top of the sidebar. The two arrows icon with a letter indicates which structure is being filtered: projects (P) or boards (B). To switch, click on the icon. As you can see in the example below, filtering works also if you write the middle part of the word. To clear filtering, click on the \"x\" icon.\n\n![Sidebar filtering option] (Sidebar_introduce_shot_example_2)\n\n1. You can show/hide the boards in projects using triangle button on the left of the project name. It will show all of the boards within this project that you have access to (unless there is an active filtering hiding some of them).\n2. You can quickly navigate between different projects/boards by clicking on their names. Selected project/board will be highlighted with blueish color.\n3. You can edit project/board within sidebar using a three-dot menu (see [project](module_project) and [board](module_board))."
+    },
+    {
+      "id": "Structure Overview_introduce",
+      "type": "Section",
+      "content": "Structure Overview_introduce\nThis section aims to present the logical structure of organizing the workflow with 4ga Boards.\n\n4ga Boards is using a four-level structure to help you maintain even the most complicated projects. Speaking of projects...\n\n[Project](module_project) is a highest level of organization in 4ga Boards, a container holding boards.  \n[Board](module_board) is a workspace within a project where tasks are organized through lists.  \n[List](module_list) is a column on the board representing different stages or categories of the workflow (e.g. \"To Do\", \"Doing\"), with tasks attached to it.  \n[Card](module_card) is representing individual task (with optional subtasks) that can be moved across lists.\n\nEach of the levels is thoroughly explained in the respective sections."
+    },
+    {
+      "id": "Views Description_introduce_shot_example_1",
+      "type": "Webshot",
+      "content": "The contents in Views Description_introduce_shot_example_1\n```json\n{\n    \"scenarios of shot\": \"The page represents a dashboard interface for a web app named 4ga Boards. It is divided into distinct sections: a header navigation bar, a side navigation menu, and a main content area. The header provides branding and access to settings and user profiles, the side menu offers a filterable list of projects and buttons to add new projects or boards, and the main content area displays tiles representing individual project categories.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Header\",\n            \"function\": \"Displays the 4GA Boards logo and Dashboard title, includes user avatar and settings options\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Side Navigation Panel\",\n            \"function\": \"Provides a list of projects with a filter option and controls to add projects or boards\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Main Content Area\",\n            \"function\": \"Displays project tiles representing categories like Personal, 4ga, Work, etc.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Tile\",\n            \"function\": \"Represents a project category, can be clicked to access specific boards under that category\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Search Box\",\n            \"function\": \"Allows users to filter projects by name\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Button\",\n            \"function\": \"Add Project - allows users to create a new project\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Button\",\n            \"function\": \"Add Board - allows users to create a new board\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Icon\",\n            \"function\": \"User Profile - provides access to user profile and settings\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Icon\",\n            \"function\": \"Settings - provides access to app settings\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Views Description_introduce_shot_example_2",
+      "type": "Webshot",
+      "content": "The contents in Views Description_introduce_shot_example_2\n```json\n{\n    \"scenarios of shot\": \"The webpage is part of a project management application named '4ga Boards'. It consists of a dashboard used to manage and track different projects and boards. The page is divided into three key sections. On the top, there is a header with navigation and user settings options. The left pane is a vertical sidebar which appears to provide the ability to filter and switch between different projects, and add new projects or boards. The main section displays cards for existing boards within a selected project, allowing users to access different boards easily.\",\n    \"elements in the page\":[\n        {\n            \"index\": 1,\n            \"class\": \"Header/Top Bar\",\n            \"function\": \"Displays the application title and possibly navigation options.\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Sidebar/Project List\",\n            \"function\": \"Displays a list of projects with the ability to filter and navigate through them.\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Main Content Area/Board Cards\",\n            \"function\": \"Displays cards for existing boards under the selected project for quick access.\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Search Box\",\n            \"function\": \"Filters the list of projects on the sidebar.\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Button/Add Project\",\n            \"function\": \"Initiates adding a new project.\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Button/Add Board\",\n            \"function\": \"Initiates adding a new board.\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"User Menu/Icon\",\n            \"function\": \"Accesses user settings or profile options.\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Navigation Icon\",\n            \"function\": \"Provides access to notifications or settings.\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Views Description_introduce_shot_example_3",
+      "type": "Webshot",
+      "content": "The contents in Views Description_introduce_shot_example_3\n```json\n{\n    \"scenarios of shot\": \"The web app page is a project management board called '4ga Boards'. It displays an interface for managing and organizing tasks within projects. On the left sidebar, there is a list of projects which users can filter and select. The main area of the page is divided into columns representing different task statuses such as 'Open', 'Todo', 'In Progress', 'Done', and 'To Test'. Each column contains cards that signify tasks, which can include due dates, tags, and assignees. The top bar includes options for filtering members and labels, and the user can add new cards or lists and access project settings.\",\n    \"elements in the page\": [\n        {\n            \"index\": 1,\n            \"class\": \"Text\",\n            \"function\": \"Logo and title display\"\n        },\n        {\n            \"index\": 2,\n            \"class\": \"Text Input\",\n            \"function\": \"Project filter\"\n        },\n        {\n            \"index\": 3,\n            \"class\": \"Sidebar Menu\",\n            \"function\": \"Project navigation\"\n        },\n        {\n            \"index\": 4,\n            \"class\": \"Button\",\n            \"function\": \"Expand/Collapse sidebar\"\n        },\n        {\n            \"index\": 5,\n            \"class\": \"Column\",\n            \"function\": \"Task status classification\"\n        },\n        {\n            \"index\": 6,\n            \"class\": \"Card\",\n            \"function\": \"Task management and details\"\n        },\n        {\n            \"index\": 7,\n            \"class\": \"Button\",\n            \"function\": \"Add card\"\n        },\n        {\n            \"index\": 8,\n            \"class\": \"Button\",\n            \"function\": \"Add list\"\n        },\n        {\n            \"index\": 9,\n            \"class\": \"Button\",\n            \"function\": \"Settings\"\n        },\n        {\n            \"index\": 10,\n            \"class\": \"Button\",\n            \"function\": \"Notifications\"\n        },\n        {\n            \"index\": 11,\n            \"class\": \"Button\",\n            \"function\": \"Profile management\"\n        }\n    ]\n}\n```"
+    },
+    {
+      "id": "Views Description_introduce",
+      "type": "Section",
+      "content": "Views Description_introduce\n1. Dashboard view\n\n![Dashboard view] (Views Description_introduce_shot_example_1)\n\n2. Project view\n\n![Project view] (Views Description_introduce_shot_example_2)\n\n2. Board view\n\n![Board view] (Views Description_introduce_shot_example_3)\n\n3. Board with opened card view"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Board_introduce",
+      "target": "Board_introduce_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Board_introduce_shot_example_1",
+      "target": "Board_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Board_introduce",
+      "target": "Board_introduce_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Board_introduce_shot_example_2",
+      "target": "Board_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Board",
+      "target": "Board_introduce",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Board_Creating a new board​",
+      "target": "Board_Creating a new board​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Board_Creating a new board​_shot_example_1",
+      "target": "Board_Creating a new board​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Board_Creating a new board​",
+      "target": "Board_Creating a new board​_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Board_Creating a new board​_shot_example_2",
+      "target": "Board_Creating a new board​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Board_Creating a new board​",
+      "target": "Board_Creating a new board​_shot_example_3",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Board_Creating a new board​_shot_example_3",
+      "target": "Board_Creating a new board​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Board_Creating a new board​",
+      "target": "Board_Creating a new board​_shot_example_4",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Board_Creating a new board​_shot_example_4",
+      "target": "Board_Creating a new board​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Board_Creating a new board​",
+      "target": "project",
+      "type": "CALL"
+    },
+    {
+      "source": "Board",
+      "target": "Board_Creating a new board​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Board_Board additional options​",
+      "target": "Board_Board additional options​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Board_Board additional options​_shot_example_1",
+      "target": "Board_Board additional options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Board_Board additional options​",
+      "target": "Board_Board additional options​_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Board_Board additional options​_shot_example_2",
+      "target": "Board_Board additional options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Board",
+      "target": "Board_Board additional options​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Board",
+      "target": "Board_Board permissions​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Card",
+      "target": "Card_introduce",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Card_Creating, moving and deleting cards​",
+      "target": "Card_Creating, moving and deleting cards​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Creating, moving and deleting cards​_shot_example_1",
+      "target": "Card_Creating, moving and deleting cards​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Creating, moving and deleting cards​",
+      "target": "Card_Creating, moving and deleting cards​_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Creating, moving and deleting cards​_shot_example_2",
+      "target": "Card_Creating, moving and deleting cards​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card",
+      "target": "Card_Creating, moving and deleting cards​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Card_Card menu​",
+      "target": "Card_Card menu​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card menu​_shot_example_1",
+      "target": "Card_Card menu​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card",
+      "target": "Card_Card menu​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Card_Card View overview​",
+      "target": "Card_Card View overview​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card View overview​_shot_example_1",
+      "target": "Card_Card View overview​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Card View overview​",
+      "target": "Card_Card View overview​_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card View overview​_shot_example_2",
+      "target": "Card_Card View overview​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card",
+      "target": "Card_Card View overview​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Card_Card options​",
+      "target": "Card_Card options​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card options​_shot_example_1",
+      "target": "Card_Card options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Card options​",
+      "target": "Card_Card options​_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card options​_shot_example_2",
+      "target": "Card_Card options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Card options​",
+      "target": "Card_Card options​_shot_example_3",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card options​_shot_example_3",
+      "target": "Card_Card options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Card options​",
+      "target": "Card_Card options​_shot_example_4",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card options​_shot_example_4",
+      "target": "Card_Card options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Card options​",
+      "target": "Card_Card options​_shot_example_5",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card options​_shot_example_5",
+      "target": "Card_Card options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Card options​",
+      "target": "Card_Card options​_shot_example_6",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card options​_shot_example_6",
+      "target": "Card_Card options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Card options​",
+      "target": "Card_Card options​_shot_example_7",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card options​_shot_example_7",
+      "target": "Card_Card options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Card options​",
+      "target": "Card_Card options​_shot_example_8",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Card options​_shot_example_8",
+      "target": "Card_Card options​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card_Card options​",
+      "target": "board",
+      "type": "CALL"
+    },
+    {
+      "source": "Card",
+      "target": "Card_Card options​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Card_Text editor​",
+      "target": "Card_Text editor​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Card_Text editor​_shot_example_1",
+      "target": "Card_Text editor​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Card",
+      "target": "Card_Text editor​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "For Users",
+      "target": "Structure Overview",
+      "type": "HAS_MODULE"
+    },
+    {
+      "source": "For Users",
+      "target": "Project",
+      "type": "HAS_MODULE"
+    },
+    {
+      "source": "For Users",
+      "target": "Board",
+      "type": "HAS_MODULE"
+    },
+    {
+      "source": "For Users",
+      "target": "List",
+      "type": "HAS_MODULE"
+    },
+    {
+      "source": "For Users",
+      "target": "Card",
+      "type": "HAS_MODULE"
+    },
+    {
+      "source": "For Users",
+      "target": "Sidebar",
+      "type": "HAS_MODULE"
+    },
+    {
+      "source": "For Users",
+      "target": "User Settings",
+      "type": "HAS_MODULE"
+    },
+    {
+      "source": "For Users",
+      "target": "Views Description",
+      "type": "HAS_MODULE"
+    },
+    {
+      "source": "For Users",
+      "target": "Useful Shortcuts",
+      "type": "HAS_MODULE"
+    },
+    {
+      "source": "List_introduce",
+      "target": "List_introduce_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "List_introduce_shot_example_1",
+      "target": "List_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "List",
+      "target": "List_introduce",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "List_List navigation​",
+      "target": "List_List navigation​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "List_List navigation​_shot_example_1",
+      "target": "List_List navigation​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "List",
+      "target": "List_List navigation​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "List_Creating, editing and deleting the list​",
+      "target": "List_Creating, editing and deleting the list​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "List_Creating, editing and deleting the list​_shot_example_1",
+      "target": "List_Creating, editing and deleting the list​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "List",
+      "target": "List_Creating, editing and deleting the list​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Project_introduce",
+      "target": "Project_introduce_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Project_introduce_shot_example_1",
+      "target": "Project_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Project_introduce",
+      "target": "Project_introduce_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Project_introduce_shot_example_2",
+      "target": "Project_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Project_introduce",
+      "target": "Project_introduce_shot_example_3",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Project_introduce_shot_example_3",
+      "target": "Project_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Project_introduce",
+      "target": "project-settings",
+      "type": "CALL"
+    },
+    {
+      "source": "Project_introduce",
+      "target": "project-settings",
+      "type": "CALL"
+    },
+    {
+      "source": "Project_introduce",
+      "target": "board",
+      "type": "CALL"
+    },
+    {
+      "source": "Project",
+      "target": "Project_introduce",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "User Settings_introduce",
+      "target": "User Settings_introduce_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "User Settings_introduce_shot_example_1",
+      "target": "User Settings_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "User Settings",
+      "target": "User Settings_introduce",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "User Settings_Profile​",
+      "target": "User Settings_Profile​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "User Settings_Profile​_shot_example_1",
+      "target": "User Settings_Profile​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "User Settings",
+      "target": "User Settings_Profile​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "User Settings_Preferences​",
+      "target": "User Settings_Preferences​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "User Settings_Preferences​_shot_example_1",
+      "target": "User Settings_Preferences​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "User Settings_Preferences​",
+      "target": "User Settings_Preferences​_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "User Settings_Preferences​_shot_example_2",
+      "target": "User Settings_Preferences​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "User Settings_Preferences​",
+      "target": "User Settings_Preferences​_shot_example_3",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "User Settings_Preferences​_shot_example_3",
+      "target": "User Settings_Preferences​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "User Settings_Preferences​",
+      "target": "card#card-options",
+      "type": "CALL"
+    },
+    {
+      "source": "User Settings",
+      "target": "User Settings_Preferences​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "User Settings_Account​",
+      "target": "User Settings_Account​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "User Settings_Account​_shot_example_1",
+      "target": "User Settings_Account​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "User Settings",
+      "target": "User Settings_Account​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "User Settings_Authentication​",
+      "target": "User Settings_Authentication​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "User Settings_Authentication​_shot_example_1",
+      "target": "User Settings_Authentication​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "User Settings",
+      "target": "User Settings_Authentication​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "User Settings_About​",
+      "target": "User Settings_About​_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "User Settings_About​_shot_example_1",
+      "target": "User Settings_About​",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "User Settings",
+      "target": "User Settings_About​",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Useful Shortcuts",
+      "target": "Useful Shortcuts_introduce",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Sidebar_introduce",
+      "target": "Sidebar_introduce_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Sidebar_introduce_shot_example_1",
+      "target": "Sidebar_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Sidebar_introduce",
+      "target": "Sidebar_introduce_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Sidebar_introduce_shot_example_2",
+      "target": "Sidebar_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Sidebar_introduce",
+      "target": "settings",
+      "type": "CALL"
+    },
+    {
+      "source": "Sidebar_introduce",
+      "target": "project",
+      "type": "CALL"
+    },
+    {
+      "source": "Sidebar_introduce",
+      "target": "board",
+      "type": "CALL"
+    },
+    {
+      "source": "Sidebar",
+      "target": "Sidebar_introduce",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Structure Overview_introduce",
+      "target": "project",
+      "type": "CALL"
+    },
+    {
+      "source": "Structure Overview_introduce",
+      "target": "board",
+      "type": "CALL"
+    },
+    {
+      "source": "Structure Overview_introduce",
+      "target": "list",
+      "type": "CALL"
+    },
+    {
+      "source": "Structure Overview_introduce",
+      "target": "card",
+      "type": "CALL"
+    },
+    {
+      "source": "Structure Overview",
+      "target": "Structure Overview_introduce",
+      "type": "HAS_SECTION"
+    },
+    {
+      "source": "Views Description_introduce",
+      "target": "Views Description_introduce_shot_example_1",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Views Description_introduce_shot_example_1",
+      "target": "Views Description_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Views Description_introduce",
+      "target": "Views Description_introduce_shot_example_2",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Views Description_introduce_shot_example_2",
+      "target": "Views Description_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Views Description_introduce",
+      "target": "Views Description_introduce_shot_example_3",
+      "type": "HAS_WEBSHOT_EXAMPLE"
+    },
+    {
+      "source": "Views Description_introduce_shot_example_3",
+      "target": "Views Description_introduce",
+      "type": "IS_WEBSHOT_EXAMPLE_OF"
+    },
+    {
+      "source": "Views Description",
+      "target": "Views Description_introduce",
+      "type": "HAS_SECTION"
+    }
+  ]
+}

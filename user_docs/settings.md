@@ -1,4 +1,4 @@
-Settings
+User Settings
 ========
 
 The personal and general settings panel looks like this:
