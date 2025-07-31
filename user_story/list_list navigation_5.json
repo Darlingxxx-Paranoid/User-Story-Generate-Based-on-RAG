@@ -1,0 +1,9 @@
+{
+  "function_description": "Scroll through cards within a list",
+  "initial_state": "User is on a board with a list full of cards, some of which are not visible due to list size.",
+  "steps": [
+    "Hover the mouse over the list containing the cards.",
+    "Use the mouse scroll wheel to scroll through the cards vertically."
+  ],
+  "expected_state": "The user can view different cards within the list that were previously out of view."
+}

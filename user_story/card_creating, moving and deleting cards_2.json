@@ -1,0 +1,11 @@
+{
+  "function_description": "Moving a card to a different list",
+  "initial_state": "User is logged into 4ga Boards and viewing a board with multiple lists and at least one card present.",
+  "steps": [
+    "Locate the card you want to move.",
+    "Click and hold the card to drag it.",
+    "Drag the card to the desired list (open or hidden).",
+    "Release the card to drop it in the target list."
+  ],
+  "expected_state": "The card is moved from its original list to the bottom of the target list."
+}

@@ -1,0 +1,9 @@
+{
+  "function_description": "Add card",
+  "initial_state": "User is on the Board view with columns for task status visible",
+  "steps": [
+    "Locate the 'Add card' button within a column.",
+    "Click the 'Add card' button."
+  ],
+  "expected_state": "A new card creation interface is displayed within the selected column, allowing the user to add task details."
+}

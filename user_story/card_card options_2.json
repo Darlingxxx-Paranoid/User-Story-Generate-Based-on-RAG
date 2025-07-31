@@ -1,0 +1,9 @@
+{
+  "function_description": "Delete a card",
+  "initial_state": "User is viewing a card in the card view with the card menu and delete icon visible.",
+  "steps": [
+    "Click on the `bin` icon in the top-right corner.",
+    "Confirm the deletion in the pop-up dialog."
+  ],
+  "expected_state": "The card is removed from the board and no longer visible in the list."
+}

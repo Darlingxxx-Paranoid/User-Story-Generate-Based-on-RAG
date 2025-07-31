@@ -1,0 +1,12 @@
+{
+  "function_description": "Create a new board using the '+Add Board' button at the top-right corner.",
+  "initial_state": "User is on the main project page within the 4ga Boards app, with at least one project already created.",
+  "steps": [
+    "Locate the '+Add Board' button at the top-right corner of the screen.",
+    "Click the '+Add Board' button.",
+    "In the pop-up window that appears, enter a name for the new board in the textbox provided.",
+    "Optionally, select a template from the dropdown menu or import existing data using the provided options.",
+    "Click the 'Add Board' button to create the board."
+  ],
+  "expected_state": "A new board is created and displayed under the current project, with the specified name and selected template or imported data applied."
+}

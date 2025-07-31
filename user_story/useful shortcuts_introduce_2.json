@@ -1,0 +1,9 @@
+{
+  "function_description": "Navigate using 'Shift + Scroll' shortcut.",
+  "initial_state": "User is viewing a page on 4ga Boards that supports scrolling.",
+  "steps": [
+    "Hold down the 'Shift' key.",
+    "Scroll using the mouse wheel or trackpad."
+  ],
+  "expected_state": "The page scrolls horizontally instead of vertically, facilitating navigation across wide layouts."
+}

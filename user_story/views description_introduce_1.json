@@ -1,0 +1,9 @@
+{
+  "function_description": "Initiates adding a new project",
+  "initial_state": "User is on the Dashboard view with the side navigation panel visible",
+  "steps": [
+    "Locate the 'Add Project' button on the side navigation panel.",
+    "Click the 'Add Project' button."
+  ],
+  "expected_state": "A new project creation interface is displayed, allowing the user to input project details."
+}

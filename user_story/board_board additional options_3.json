@@ -1,0 +1,10 @@
+{
+  "function_description": "Export a board in .csv format",
+  "initial_state": "User is logged into the web app and viewing a project with boards listed in the sidebar.",
+  "steps": [
+    "Hover over the board name in the sidebar.",
+    "Click on the ellipsis menu that appears next to the board name.",
+    "Select 'Export the board' option from the context menu."
+  ],
+  "expected_state": "A .csv file containing the board's data is downloaded to the user's device."
+}

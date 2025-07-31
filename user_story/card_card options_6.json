@@ -1,0 +1,10 @@
+{
+  "function_description": "Set or edit due date for a card",
+  "initial_state": "User is viewing a card in the card view with the due date section visible.",
+  "steps": [
+    "Click on the `+` icon to add or the `pencil` icon to edit the due date.",
+    "Select the desired date from the calendar or input it in the text field.",
+    "Click the `Save` button to update the due date."
+  ],
+  "expected_state": "The selected due date is displayed in the due date section, with appropriate color coding based on proximity or overdue status."
+}

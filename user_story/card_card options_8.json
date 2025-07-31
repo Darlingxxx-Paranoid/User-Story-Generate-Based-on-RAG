@@ -1,0 +1,8 @@
+{
+  "function_description": "Subscribe or unsubscribe from card notifications",
+  "initial_state": "User is viewing a card in the card view with the notifications section visible.",
+  "steps": [
+    "Click on the bell icon in the notifications section to toggle subscription."
+  ],
+  "expected_state": "User is subscribed to or unsubscribed from notifications, with the bell icon reflecting the current subscription status."
+}

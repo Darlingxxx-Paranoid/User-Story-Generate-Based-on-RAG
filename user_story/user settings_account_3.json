@@ -1,0 +1,9 @@
+{
+  "function_description": "Show or Hide Current Password",
+  "initial_state": "User is on the modal for editing username or email and has entered their current password.",
+  "steps": [
+    "Locate the toggle button next to the password input field.",
+    "Click the toggle button to either show or hide the current password being typed."
+  ],
+  "expected_state": "The password input field either displays the entered password or obscures it, depending on the toggle button state."
+}

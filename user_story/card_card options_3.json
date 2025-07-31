@@ -1,0 +1,9 @@
+{
+  "function_description": "Move a card to a different list",
+  "initial_state": "User is viewing a card in the card view with the current list displayed under the title.",
+  "steps": [
+    "Click on the list name below the card title.",
+    "Select the desired list from the dropdown menu."
+  ],
+  "expected_state": "The card is moved to the top of the selected list and the new list is displayed under the card title."
+}

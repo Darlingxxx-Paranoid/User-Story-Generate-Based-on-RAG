@@ -1,0 +1,10 @@
+{
+  "function_description": "Image insertion",
+  "initial_state": "The user is in the markdown editor and wants to insert an image.",
+  "steps": [
+    "Place the cursor where the image is to be inserted.",
+    "Click the 'Image insertion' button on the toolbar or press CTRL + k.",
+    "Enter the image URL and alt text in the prompt that appears."
+  ],
+  "expected_state": "The image appears in the preview area, with markdown syntax applied in the editor."
+}

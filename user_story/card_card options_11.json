@@ -1,0 +1,10 @@
+{
+  "function_description": "Add attachments to a card",
+  "initial_state": "User is viewing a card in the card view with the attachments section visible.",
+  "steps": [
+    "Click on the `Add attachment` field or drop files onto the card.",
+    "Select files from the disc if using the `Add attachment` field.",
+    "If the attachment is an image, click `Make cover` to use it as a cover."
+  ],
+  "expected_state": "Selected attachments are added to the card and displayed in the attachments section, with the cover image shown in the list view if set."
+}

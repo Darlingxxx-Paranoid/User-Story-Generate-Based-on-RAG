@@ -1,0 +1,10 @@
+{
+  "function_description": "Move card to another project/board/list",
+  "initial_state": "The user is viewing a board with cards and has opened the card menu by clicking the ellipsis menu on a specific card.",
+  "steps": [
+    "Click on the 'Move Card Option' in the card menu.",
+    "Select the destination project, board, or list.",
+    "Confirm the move."
+  ],
+  "expected_state": "The card is now located in the selected project, board, or list, indicating successful relocation."
+}

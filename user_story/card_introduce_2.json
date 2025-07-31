@@ -1,0 +1,13 @@
+{
+  "function_description": "Setting notifications for a card",
+  "initial_state": "User is logged into the 4ga Boards web app and has access to a board with at least one card.",
+  "steps": [
+    "Navigate to the board containing the card for which notifications are to be set.",
+    "Select the card by clicking on it to open the card details.",
+    "Locate the notifications option within the card details.",
+    "Select the type of notification desired (e.g., due date reminder, activity updates).",
+    "Configure the notification settings as needed (e.g., frequency, delivery method).",
+    "Save the notification settings for the card."
+  ],
+  "expected_state": "Notifications are set for the card according to the user's configuration, and the user is informed of the notification settings saved."
+}

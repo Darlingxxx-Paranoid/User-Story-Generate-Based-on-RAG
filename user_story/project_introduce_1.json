@@ -1,0 +1,11 @@
+{
+  "function_description": "Create a new project",
+  "initial_state": "User is logged in and has administrator rights. User is on the dashboard view or has the sidebar visible.",
+  "steps": [
+    "Locate the '+Add project' button either at the bottom of the sidebar or at the top-right corner of the dashboard.",
+    "Click the '+Add project' button.",
+    "Enter the desired project name in the prompt that appears.",
+    "Confirm the creation of the project."
+  ],
+  "expected_state": "A new project is created and visible on the dashboard view as a project card. User can access and manage this project."
+}

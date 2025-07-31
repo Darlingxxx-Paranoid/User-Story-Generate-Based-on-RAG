@@ -1,0 +1,8 @@
+{
+  "function_description": "Cancel editing",
+  "initial_state": "The user is in the markdown editor and wants to discard changes.",
+  "steps": [
+    "Click the 'Cancel editing' button."
+  ],
+  "expected_state": "The editor discards any unsaved changes, reverting to the last saved state."
+}

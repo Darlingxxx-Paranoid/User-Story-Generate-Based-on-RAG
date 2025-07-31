@@ -1,0 +1,10 @@
+{
+  "function_description": "Edit timer of the card",
+  "initial_state": "The user is viewing a board with cards and has opened the card menu by clicking the ellipsis menu on a specific card.",
+  "steps": [
+    "Click on the 'Edit Timer Option' in the card menu.",
+    "Adjust the timer settings for the card.",
+    "Save the changes."
+  ],
+  "expected_state": "The card displays the updated timer settings, reflecting the new timing configuration."
+}

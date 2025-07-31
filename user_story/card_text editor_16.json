@@ -1,0 +1,8 @@
+{
+  "function_description": "Toggle fullscreen",
+  "initial_state": "The user is in the markdown editor and wants to work in fullscreen mode.",
+  "steps": [
+    "Press CTRL + 0 to toggle fullscreen."
+  ],
+  "expected_state": "The markdown editor switches to fullscreen mode, providing an expanded view for editing."
+}

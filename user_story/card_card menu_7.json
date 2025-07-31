@@ -1,0 +1,8 @@
+{
+  "function_description": "Duplicate card",
+  "initial_state": "The user is viewing a board with cards and has opened the card menu by clicking the ellipsis menu on a specific card.",
+  "steps": [
+    "Click on the 'Duplicate Card Option' in the card menu."
+  ],
+  "expected_state": "An exact copy of the card appears directly below the original card in the list."
+}

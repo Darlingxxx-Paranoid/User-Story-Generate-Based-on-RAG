@@ -1,0 +1,9 @@
+{
+  "function_description": "Delete card",
+  "initial_state": "The user is viewing a board with cards and has opened the card menu by clicking the ellipsis menu on a specific card.",
+  "steps": [
+    "Click on the 'Delete Card Option' in the card menu.",
+    "Confirm the deletion."
+  ],
+  "expected_state": "The card is removed from the board, no longer visible in the list."
+}

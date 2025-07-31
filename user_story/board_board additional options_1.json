@@ -1,0 +1,10 @@
+{
+  "function_description": "Edit or delete a board using the ellipsis menu",
+  "initial_state": "User is logged into the web app and viewing a project with boards listed in the sidebar.",
+  "steps": [
+    "Hover over the board name in the sidebar.",
+    "Click on the ellipsis menu that appears next to the board name.",
+    "Select 'Rename the board' or 'Delete the board' option from the context menu."
+  ],
+  "expected_state": "The board is renamed or deleted, as per the selected option. If renamed, the board's name is updated in the sidebar. If deleted, the board is removed from the sidebar."
+}

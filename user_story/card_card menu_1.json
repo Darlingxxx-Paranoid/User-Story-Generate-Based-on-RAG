@@ -1,0 +1,10 @@
+{
+  "function_description": "Edit the name of the card",
+  "initial_state": "The user is viewing a board with cards and has opened the card menu by clicking the ellipsis menu on a specific card.",
+  "steps": [
+    "Click on the 'Edit Name Option' in the card menu.",
+    "Enter the new name for the card in the provided text box.",
+    "Save the changes."
+  ],
+  "expected_state": "The card displays the updated name, reflecting the changes made by the user."
+}

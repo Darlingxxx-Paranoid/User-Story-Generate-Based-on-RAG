@@ -1,0 +1,11 @@
+{
+  "function_description": "Add attachments to a card",
+  "initial_state": "The user is logged into the 4ga Boards application, has opened the card view for a specific card, and is viewing the card's details.",
+  "steps": [
+    "Locate the 'Add attachments' button within the card view.",
+    "Click the 'Add attachments' button.",
+    "Select the file(s) to attach from the local system.",
+    "Confirm the addition of the attachment(s)."
+  ],
+  "expected_state": "The selected file(s) are attached to the card, visible within the card's attachment section."
+}

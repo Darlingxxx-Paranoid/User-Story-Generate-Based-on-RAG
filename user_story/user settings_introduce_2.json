@@ -1,0 +1,9 @@
+{
+  "function_description": "Label 'Settings:' as the section focus",
+  "initial_state": "User is on the settings page of the 4GA Boards application.",
+  "steps": [
+    "Open the settings page of the 4GA Boards application.",
+    "Locate the area where 'Settings:' is labeled."
+  ],
+  "expected_state": "The label 'Settings:' is visible, indicating the current focus is on the settings section of the application."
+}

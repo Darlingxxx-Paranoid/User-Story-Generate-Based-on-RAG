@@ -1,0 +1,9 @@
+{
+  "function_description": "Navigate through lists using scrollbar",
+  "initial_state": "User is on a board with multiple lists, some of which are not visible due to window size.",
+  "steps": [
+    "Locate the scrollbar at the bottom of the board.",
+    "Click and drag the scrollbar left or right to navigate through the lists."
+  ],
+  "expected_state": "The view shifts horizontally, allowing the user to see lists that were previously out of view."
+}

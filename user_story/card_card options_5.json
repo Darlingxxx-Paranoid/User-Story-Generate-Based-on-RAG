@@ -1,0 +1,10 @@
+{
+  "function_description": "Add a label to a card",
+  "initial_state": "User is viewing a card in the card view with the labels section visible.",
+  "steps": [
+    "Click on the plus icon in the labels section.",
+    "Select the label(s) to assign from the list or create a new label.",
+    "Click on the `Create new label` button if creating a new one, otherwise select existing."
+  ],
+  "expected_state": "The selected labels are added to the card, indicated by a tick symbol next to them."
+}

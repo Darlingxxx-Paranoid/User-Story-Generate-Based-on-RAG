@@ -1,0 +1,10 @@
+{
+  "function_description": "Add colored text",
+  "initial_state": "The user is in the markdown editor and wants to change text color.",
+  "steps": [
+    "Select the text that needs color change.",
+    "Click the 'Text color change' button on the toolbar or type in color syntax.",
+    "Choose the desired color from the options provided."
+  ],
+  "expected_state": "The selected text appears in the chosen color in the preview area, with markdown syntax applied in the editor."
+}

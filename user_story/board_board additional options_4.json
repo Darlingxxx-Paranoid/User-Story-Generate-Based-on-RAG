@@ -1,0 +1,10 @@
+{
+  "function_description": "Add members to a board",
+  "initial_state": "User is logged into the web app and viewing a specific board on the project dashboard.",
+  "steps": [
+    "Locate the settings bar on the board.",
+    "Click on the 'Add new member' button.",
+    "Enter the member details and confirm the addition."
+  ],
+  "expected_state": "The new member's avatar appears on the board, indicating they have been added."
+}

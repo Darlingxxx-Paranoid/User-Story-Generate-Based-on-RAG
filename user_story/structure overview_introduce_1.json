@@ -1,0 +1,10 @@
+{
+  "function_description": "Create a new project to organize boards.",
+  "initial_state": "User is logged into the 4ga Boards web app and is on the dashboard page. No existing projects are created.",
+  "steps": [
+    "Locate and click the 'Create Project' button on the dashboard.",
+    "Enter the project name in the provided field.",
+    "Confirm the creation by clicking the 'Save' or 'Create' button."
+  ],
+  "expected_state": "A new project is created and displayed on the dashboard, serving as a container for boards."
+}

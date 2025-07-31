@@ -1,0 +1,9 @@
+{
+  "function_description": "Filter boards",
+  "initial_state": "The user is viewing the main dashboard where multiple boards might be present.",
+  "steps": [
+    "Locate the 'Search Box' in the navigation panel.",
+    "Enter the desired filter criteria into the 'Search Box'."
+  ],
+  "expected_state": "The boards displayed in the main content area are filtered according to the entered criteria."
+}

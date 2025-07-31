@@ -1,0 +1,11 @@
+{
+  "function_description": "Modify the organization details.",
+  "initial_state": "The user is on the profile settings page with a text field labeled 'Organization' showing the current organization details.",
+  "steps": [
+    "Locate the text field labeled 'Organization'.",
+    "Click inside the text field to make it active.",
+    "Delete the current organization details or modify them as needed.",
+    "Enter the new organization details."
+  ],
+  "expected_state": "The 'Organization' text field displays the new organization details entered by the user. The new details are ready to be saved."
+}

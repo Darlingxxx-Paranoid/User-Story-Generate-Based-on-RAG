@@ -1,0 +1,9 @@
+{
+  "function_description": "Expand/Collapse sidebar",
+  "initial_state": "User is on the Board view with the sidebar menu visible",
+  "steps": [
+    "Locate the expand/collapse button on the sidebar menu.",
+    "Click the button to expand or collapse the sidebar."
+  ],
+  "expected_state": "The sidebar menu is either expanded or collapsed based on the user's action."
+}

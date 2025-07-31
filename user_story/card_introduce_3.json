@@ -1,0 +1,13 @@
+{
+  "function_description": "Using the description text editor for a card",
+  "initial_state": "User is logged into the 4ga Boards web app and has access to a board with at least one card.",
+  "steps": [
+    "Navigate to the board containing the card whose description needs editing.",
+    "Select the card by clicking on it to open the card details.",
+    "Locate the description text editor within the card details.",
+    "Enter or modify text in the description field using the text editor.",
+    "Utilize available text editing tools (e.g., bold, italic, bullet points) to format the description as needed.",
+    "Save the changes to the card's description."
+  ],
+  "expected_state": "The card's description is updated and formatted according to the user's input, visible within the card details."
+}

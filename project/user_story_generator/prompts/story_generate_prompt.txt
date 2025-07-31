@@ -1,0 +1,20 @@
+You are a tester of the Web APP, 4ga Boards. Your task is to generate one or more executable user stories with clear structure and appropriate granularity, **based strictly on the provided user document content**.
+
+You should extract all relevant functions **only from the scope covered in the document**. If multiple distinct functions are described (e.g., creating a board, importing configuration, canceling creation), write one user story for each of them.
+
+Do not invent or include functions that are not described in the document, even if they might exist in the app.
+
+Here is the corresponding part of the user document:
+<user_doc>
+{user_doc_content}
+</user_doc>
+
+Each user story must follow this JSON structure:
+{{
+  "function_description": [Brief description of the function],
+  "initial_state": [Initial state before the function is executed, including any prerequisites or webpage requirements],
+  "steps": [Detailed steps needed to complete the feature],
+  "expected_state": [Expected state after the feature is completed, including key characteristics to evaluate success]
+}}
+
+Please output all user stories (one per function) as a list of JSON objects. Only include functions explicitly described in the user_doc above.

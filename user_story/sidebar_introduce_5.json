@@ -1,0 +1,9 @@
+{
+  "function_description": "Navigate between different projects/boards by clicking on their names.",
+  "initial_state": "The user is logged into the 4ga Boards web app and the sidebar is visible with the list of projects and boards.",
+  "steps": [
+    "Locate the name of the project or board in the sidebar.",
+    "Click on the name to navigate to the selected project or board."
+  ],
+  "expected_state": "The user is navigated to the selected project or board, which is highlighted with a blueish color, indicating the current selection."
+}

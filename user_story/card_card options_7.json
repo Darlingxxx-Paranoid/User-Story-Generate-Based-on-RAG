@@ -1,0 +1,8 @@
+{
+  "function_description": "Start or pause the task timer",
+  "initial_state": "User is viewing a card in the card view with the timer section visible.",
+  "steps": [
+    "Click on the timer to start or pause it."
+  ],
+  "expected_state": "The timer starts running and appears green when active, or pauses with the time frozen when clicked again."
+}

@@ -1,0 +1,9 @@
+{
+  "function_description": "Assign a member to a card",
+  "initial_state": "User is viewing a card in the card view with the members section visible and at least one member available on the board.",
+  "steps": [
+    "Click on the plus icon in the members section.",
+    "Select the member(s) to assign from the list."
+  ],
+  "expected_state": "Selected members are assigned to the card, indicated by a tick symbol next to their names."
+}

@@ -1,0 +1,10 @@
+{
+  "function_description": "Link insertion",
+  "initial_state": "The user is in the markdown editor and wants to insert a hyperlink.",
+  "steps": [
+    "Place the cursor where the link is to be inserted.",
+    "Click the 'Link insertion' button on the toolbar or press CTRL + l.",
+    "Enter the URL and link text in the prompt that appears."
+  ],
+  "expected_state": "The hyperlink appears in the preview area, with markdown syntax applied in the editor."
+}

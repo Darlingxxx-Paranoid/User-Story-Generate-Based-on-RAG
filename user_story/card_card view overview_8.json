@@ -1,0 +1,11 @@
+{
+  "function_description": "Add comments to a card",
+  "initial_state": "The user is logged into the 4ga Boards application, has opened the card view for a specific card, and is viewing the card's details.",
+  "steps": [
+    "Locate the textbox for comments within the card view.",
+    "Click on the textbox to activate it for typing.",
+    "Enter the comment text.",
+    "Submit the comment to add it to the card."
+  ],
+  "expected_state": "The comment is added to the card, visible within the comments section of the card view."
+}

@@ -1,17 +1,18 @@
 import os
 import re
 import json
+import config
 from urllib.parse import urljoin, urlparse
 from openai import OpenAI
 from enum import Enum
 
 BASE_URL = "https://docs.4gaboards.com"
-DOCS_PATH = "../user_docs"
-OUTPUT_PATH = "../data"
+DOCS_PATH = "../../user_docs"
+OUTPUT_PATH = "../../data"
 
 client = OpenAI(
-    base_url="https://api2.aigcbest.top/v1",
-    api_key="sk-zjyyqhELqpJQKMDy7c02C9Fy1iYHyc4CESe8mN6D8khuMYhO",
+    base_url=config.BASE_URL,
+    api_key=config.OPENAI_API_KEY,
 )
 
 prompt = """

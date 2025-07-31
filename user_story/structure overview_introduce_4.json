@@ -1,0 +1,10 @@
+{
+  "function_description": "Create a new card to represent individual tasks within a list.",
+  "initial_state": "User is logged into the 4ga Boards web app, has navigated to a specific board and list where they want to create the card, and the list should not have any cards created yet.",
+  "steps": [
+    "Locate and click the 'Add Card' button within the selected list.",
+    "Enter the card title and optional details in the provided fields.",
+    "Confirm the creation by clicking the 'Save' or 'Create' button."
+  ],
+  "expected_state": "A new card is created within the selected list, representing an individual task that can be moved across lists."
+}

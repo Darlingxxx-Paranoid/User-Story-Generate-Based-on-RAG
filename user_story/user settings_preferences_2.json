@@ -1,0 +1,9 @@
+{
+  "function_description": "Toggle subscription to own cards in 4ga Boards application.",
+  "initial_state": "User is on the Preferences settings page of the 4ga Boards application with 'Subscribe to my own cards' currently set to Disabled.",
+  "steps": [
+    "Locate the 'Subscribe to my own cards' section on the Preferences settings page.",
+    "Click on the toggle switch next to the 'Subscribe to my own cards' label."
+  ],
+  "expected_state": "The 'Subscribe to my own cards' setting is updated to Enabled, automatically subscribing the user to any cards they create."
+}

@@ -1,0 +1,11 @@
+{
+  "function_description": "Add or edit comments on a card",
+  "initial_state": "User is viewing a card in the card view with the comments section visible.",
+  "steps": [
+    "Start writing in the comment box.",
+    "Press `Ctrl` + `Enter` or click `Add comment` button to post.",
+    "To edit, click the `pencil` icon on an existing comment.",
+    "To delete, click the `bin` icon on an existing comment."
+  ],
+  "expected_state": "Comments are added, edited, or deleted, with the comments section reflecting these changes."
+}

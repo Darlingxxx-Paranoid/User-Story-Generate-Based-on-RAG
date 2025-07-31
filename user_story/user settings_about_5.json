@@ -1,0 +1,11 @@
+{
+  "function_description": "Provide link to Documentation",
+  "initial_state": "User is on the About page within the 4ga Boards web application.",
+  "steps": [
+    "Navigate to the User Settings.",
+    "Click on the 'About' section.",
+    "Locate the hyperlink labeled as 'Documentation'.",
+    "Click the hyperlink."
+  ],
+  "expected_state": "User is redirected to the documentation page of 4ga Boards."
+}

@@ -1,0 +1,12 @@
+{
+  "function_description": "Labelling a card",
+  "initial_state": "User is logged into the 4ga Boards web app and has access to a board with at least one card.",
+  "steps": [
+    "Navigate to the board containing the card to be labelled.",
+    "Select the card by clicking on it to open the card details.",
+    "Locate the labelling option within the card details.",
+    "Choose a label from the available options or create a new label if necessary.",
+    "Apply the label to the card."
+  ],
+  "expected_state": "The card is marked with the selected label, which is visible within the card details and on the board overview."
+}

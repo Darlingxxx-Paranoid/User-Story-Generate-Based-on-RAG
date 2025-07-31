@@ -1,0 +1,9 @@
+{
+  "function_description": "Add mention",
+  "initial_state": "The user is in the markdown editor and wants to mention a GitHub user.",
+  "steps": [
+    "Place the cursor where the mention is to be inserted.",
+    "Type the username using the specified syntax."
+  ],
+  "expected_state": "The mention appears in the preview area, with markdown syntax applied in the editor."
+}

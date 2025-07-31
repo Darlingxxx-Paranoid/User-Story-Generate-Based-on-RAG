@@ -1,0 +1,9 @@
+{
+  "function_description": "Access notifications",
+  "initial_state": "User is on the Board view with the top bar visible",
+  "steps": [
+    "Locate the notifications button on the top bar.",
+    "Click the notifications button."
+  ],
+  "expected_state": "Notification options are displayed, allowing the user to view recent notifications."
+}

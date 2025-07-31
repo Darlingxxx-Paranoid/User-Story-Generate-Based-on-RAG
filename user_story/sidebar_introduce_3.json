@@ -1,0 +1,11 @@
+{
+  "function_description": "Filter projects or boards using the filtering function.",
+  "initial_state": "The user is logged into the 4ga Boards web app and the sidebar is visible.",
+  "steps": [
+    "Locate the filtering function at the top of the sidebar.",
+    "Click on the two arrows icon to select whether to filter projects (P) or boards (B).",
+    "Enter a keyword or part of a word to filter the list.",
+    "Click on the 'x' icon to clear the filtering."
+  ],
+  "expected_state": "The list of projects or boards is filtered based on the user's input, showing only the relevant items. Clearing the filter restores the full list."
+}

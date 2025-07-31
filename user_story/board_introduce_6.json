@@ -1,0 +1,9 @@
+{
+  "function_description": "Access user's profile",
+  "initial_state": "The user is on any page within the 4ga Boards web application.",
+  "steps": [
+    "Locate the 'Profile Icon' at the top of the screen.",
+    "Click on the 'Profile Icon'."
+  ],
+  "expected_state": "The user's profile page opens, allowing the user to view or modify personal settings."
+}

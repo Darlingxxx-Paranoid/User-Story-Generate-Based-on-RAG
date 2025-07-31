@@ -1,0 +1,10 @@
+{
+  "function_description": "Unordered list creation",
+  "initial_state": "The user is in the markdown editor and wants to create an unordered list.",
+  "steps": [
+    "Place the cursor where the list is to be inserted.",
+    "Click the 'Unordered list creation' button on the toolbar or press CTRL + SHIFT + u.",
+    "Enter list items one per line."
+  ],
+  "expected_state": "An unordered list appears in the preview area, with markdown syntax applied in the editor."
+}

@@ -1,0 +1,10 @@
+{
+  "function_description": "Checkbox item insertion",
+  "initial_state": "The user is in the markdown editor and wants to create a checklist.",
+  "steps": [
+    "Place the cursor where the checklist is to be inserted.",
+    "Click the 'Checkbox item insertion' button on the toolbar or press CTRL + SHIFT + c.",
+    "Enter checklist items one per line."
+  ],
+  "expected_state": "A checklist appears in the preview area, with markdown syntax applied in the editor."
+}

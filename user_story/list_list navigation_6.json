@@ -1,0 +1,9 @@
+{
+  "function_description": "Hide/unhide lists using the triangle button",
+  "initial_state": "User is on a board with multiple lists visible, and the triangle button next to each list name is visible.",
+  "steps": [
+    "Locate the triangle button next to the name of the list you wish to hide or unhide.",
+    "Click the triangle button to toggle the visibility of the list."
+  ],
+  "expected_state": "The list's visibility is toggled, either hidden or unhidden, and the number of cards in hidden lists is displayed."
+}

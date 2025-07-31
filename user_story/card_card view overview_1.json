@@ -1,0 +1,10 @@
+{
+  "function_description": "Open card view on the right side of the screen when a card is clicked",
+  "initial_state": "The user is logged into the 4ga Boards application and is viewing a board with multiple cards displayed in lists.",
+  "steps": [
+    "Locate a card within any list on the board.",
+    "Click on the card to open its detailed view.",
+    "Observe the right side of the screen where the card view should appear."
+  ],
+  "expected_state": "The card view is displayed on the right side of the screen, allowing the user to view and manipulate card details while keeping the board visible."
+}

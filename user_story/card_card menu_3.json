@@ -1,0 +1,10 @@
+{
+  "function_description": "Add/remove labels to the card",
+  "initial_state": "The user is viewing a board with cards and has opened the card menu by clicking the ellipsis menu on a specific card.",
+  "steps": [
+    "Click on the 'Edit Labels Option' in the card menu.",
+    "Select labels to add or remove them from the card.",
+    "Save the changes."
+  ],
+  "expected_state": "The card displays updated labels, showing the new organizational attributes."
+}

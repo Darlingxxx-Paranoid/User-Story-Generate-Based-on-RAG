@@ -1,0 +1,10 @@
+{
+  "function_description": "Edit due date of the card",
+  "initial_state": "The user is viewing a board with cards and has opened the card menu by clicking the ellipsis menu on a specific card.",
+  "steps": [
+    "Click on the 'Edit Due Date Option' in the card menu.",
+    "Select a new due date from the date picker.",
+    "Save the changes."
+  ],
+  "expected_state": "The card displays the updated due date, indicating the new deadline for the task."
+}

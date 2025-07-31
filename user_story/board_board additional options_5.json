@@ -1,0 +1,10 @@
+{
+  "function_description": "Filter existing cards by members attached to them",
+  "initial_state": "User is logged into the web app and viewing a specific board on the project dashboard.",
+  "steps": [
+    "Locate the settings bar on the board.",
+    "Click on the avatar of the member whose cards you want to filter.",
+    "Observe the cards filtered based on the selected member."
+  ],
+  "expected_state": "Only the cards attached to the selected member are displayed."
+}

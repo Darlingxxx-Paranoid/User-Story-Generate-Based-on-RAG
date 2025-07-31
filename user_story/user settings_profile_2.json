@@ -1,0 +1,11 @@
+{
+  "function_description": "Change the displayed name.",
+  "initial_state": "The user is on the profile settings page with a text field labeled 'Name' showing the current displayed name.",
+  "steps": [
+    "Locate the text field labeled 'Name'.",
+    "Click inside the text field to make it active.",
+    "Delete the current name or modify it as desired.",
+    "Enter the new displayed name."
+  ],
+  "expected_state": "The 'Name' text field displays the new name entered by the user. The new name is ready to be saved."
+}

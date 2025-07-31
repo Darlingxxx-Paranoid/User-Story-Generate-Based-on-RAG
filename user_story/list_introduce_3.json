@@ -1,0 +1,9 @@
+{
+  "function_description": "Create and add a new card to the In Progress column",
+  "initial_state": "The kanban board is displayed with the In Progress column visible and empty, having zero cards.",
+  "steps": [
+    "Locate the In Progress column on the kanban board.",
+    "Click the button labeled for creating a new card in the In Progress column."
+  ],
+  "expected_state": "A new card is added to the In Progress column, and the card counter for the In Progress column increases by one."
+}

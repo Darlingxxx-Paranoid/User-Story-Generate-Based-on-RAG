@@ -1,0 +1,11 @@
+{
+  "function_description": "Add a new board to a project",
+  "initial_state": "User is logged in and has project manager rights. User is on the dashboard view or has the sidebar visible.",
+  "steps": [
+    "Hover over the project name to reveal the three dot button (context menu).",
+    "Click the three dot button to open the quick menu.",
+    "Select the 'Add Board' option.",
+    "Follow the prompts to configure and name the new board."
+  ],
+  "expected_state": "A new board is created within the selected project and is accessible from the project view."
+}

@@ -1,0 +1,9 @@
+{
+  "function_description": "Save text changes using 'Ctrl + Enter' shortcut.",
+  "initial_state": "User is editing a text field on 4ga Boards, such as a description, comment, or task.",
+  "steps": [
+    "Begin editing the text field on the 4ga Boards interface.",
+    "Press 'Ctrl' and 'Enter' keys simultaneously."
+  ],
+  "expected_state": "The text changes are saved, and if a new card is being created, the card view automatically opens."
+}

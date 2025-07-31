@@ -1,0 +1,8 @@
+{
+  "function_description": "Save changes",
+  "initial_state": "The user has completed editing in the markdown editor and wants to save changes.",
+  "steps": [
+    "Click the 'Save changes' button."
+  ],
+  "expected_state": "The changes are saved, and the text editor synchronizes with the server, removing the yellow 'local changes' indicator."
+}

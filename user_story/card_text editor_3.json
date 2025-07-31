@@ -1,0 +1,9 @@
+{
+  "function_description": "Strikethrough text formatting",
+  "initial_state": "The user is in the markdown editor with text that requires strikethrough formatting.",
+  "steps": [
+    "Select the text that needs to be struck through.",
+    "Click the 'Strikethrough text formatting' button on the toolbar or press CTRL + SHIFT + x."
+  ],
+  "expected_state": "The selected text appears with a strikethrough in the preview area, with markdown syntax applied in the editor."
+}

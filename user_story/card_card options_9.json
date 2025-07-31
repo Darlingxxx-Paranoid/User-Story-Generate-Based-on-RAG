@@ -1,0 +1,10 @@
+{
+  "function_description": "Add or edit card description",
+  "initial_state": "User is viewing a card in the card view with the description section visible.",
+  "steps": [
+    "Click in the description text area.",
+    "Enter or modify the description content.",
+    "Click the `Save` button or press `Ctrl` + `Enter` to save changes."
+  ],
+  "expected_state": "The description is updated and displayed in the description section."
+}

@@ -1,0 +1,10 @@
+{
+  "function_description": "Add a list to the board",
+  "initial_state": "The user is viewing a project management board with existing task lists.",
+  "steps": [
+    "Locate the 'Add List' button at the top or bottom of the board.",
+    "Click on the 'Add List' button.",
+    "Follow any prompts to enter list details."
+  ],
+  "expected_state": "A new task list is added to the project management board."
+}

@@ -1,0 +1,9 @@
+{
+  "function_description": "Access project settings",
+  "initial_state": "User is on the Board view with the top bar visible",
+  "steps": [
+    "Locate the settings button on the top bar.",
+    "Click the settings button."
+  ],
+  "expected_state": "Project settings options are displayed, allowing the user to modify project configurations."
+}

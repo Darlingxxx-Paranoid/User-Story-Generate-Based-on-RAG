@@ -1,0 +1,8 @@
+{
+  "function_description": "Copy a link to a card",
+  "initial_state": "The user is viewing a board with cards and has opened the card menu by clicking the ellipsis menu on a specific card.",
+  "steps": [
+    "Click on the 'Copy Link Option' in the card menu."
+  ],
+  "expected_state": "The link to the card is copied to the clipboard, ready to be shared with the team."
+}

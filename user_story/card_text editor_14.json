@@ -1,0 +1,9 @@
+{
+  "function_description": "Add commit link",
+  "initial_state": "The user is in the markdown editor and wants to link a GitHub commit.",
+  "steps": [
+    "Place the cursor where the commit link is to be inserted.",
+    "Type the commit hash using the specified syntax."
+  ],
+  "expected_state": "The commit link appears in the preview area, with markdown syntax applied in the editor."
+}

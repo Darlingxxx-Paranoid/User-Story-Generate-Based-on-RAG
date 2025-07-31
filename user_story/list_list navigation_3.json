@@ -1,0 +1,10 @@
+{
+  "function_description": "Navigate through lists using hand icon",
+  "initial_state": "User is on a board with multiple lists, some of which are not visible due to window size.",
+  "steps": [
+    "Hover over an empty space on the board to see the hand icon.",
+    "Click and hold the mouse button when the hand icon appears.",
+    "Drag the mouse left or right to move across the lists."
+  ],
+  "expected_state": "The view shifts horizontally, allowing the user to see lists that were previously out of view."
+}

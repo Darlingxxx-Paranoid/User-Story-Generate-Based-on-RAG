@@ -1,0 +1,9 @@
+{
+  "function_description": "Show the latest available version of the application",
+  "initial_state": "User is on the About page within the 4ga Boards web application.",
+  "steps": [
+    "Navigate to the User Settings.",
+    "Click on the 'About' section."
+  ],
+  "expected_state": "The text 'Latest version: 3.0.1' is displayed on the page, indicating the latest available version."
+}

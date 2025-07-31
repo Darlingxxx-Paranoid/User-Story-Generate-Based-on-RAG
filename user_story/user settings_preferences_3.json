@@ -1,0 +1,9 @@
+{
+  "function_description": "Toggle sidebar size between compact and regular in 4ga Boards application.",
+  "initial_state": "User is on the Preferences settings page of the 4ga Boards application with 'Compact Sidebar' currently set to Disabled.",
+  "steps": [
+    "Locate the 'Compact Sidebar' section on the Preferences settings page.",
+    "Click on the toggle switch next to the 'Compact Sidebar' label."
+  ],
+  "expected_state": "The sidebar of the 4ga Boards application is updated to a compact style, providing a minimalistic design and more room for lists in the board view."
+}

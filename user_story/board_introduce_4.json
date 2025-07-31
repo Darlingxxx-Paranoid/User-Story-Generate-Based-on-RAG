@@ -1,0 +1,9 @@
+{
+  "function_description": "Access settings",
+  "initial_state": "The user is on any page within the 4ga Boards web application.",
+  "steps": [
+    "Locate the 'Settings Icon' at the top of the screen.",
+    "Click on the 'Settings Icon'."
+  ],
+  "expected_state": "The settings menu opens, allowing the user to adjust various configuration options."
+}

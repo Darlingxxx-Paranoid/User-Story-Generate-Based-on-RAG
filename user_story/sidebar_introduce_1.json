@@ -1,0 +1,9 @@
+{
+  "function_description": "Change the sidebar width inside personal settings.",
+  "initial_state": "The user is logged into the 4ga Boards web app and navigated to the personal settings page.",
+  "steps": [
+    "Locate the option for changing sidebar width within personal settings.",
+    "Adjust the sidebar width using the available controls."
+  ],
+  "expected_state": "The sidebar width is changed according to the user's preference, providing a customized view."
+}

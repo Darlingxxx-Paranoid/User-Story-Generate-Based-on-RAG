@@ -1,0 +1,11 @@
+{
+  "function_description": "Add tasks within a card",
+  "initial_state": "The user is logged into the 4ga Boards application, has opened the card view for a specific card, and is viewing the card's details.",
+  "steps": [
+    "Locate the 'Add tasks' button within the card view.",
+    "Click the 'Add tasks' button to open a new task input field.",
+    "Enter the task details in the input field.",
+    "Confirm the addition of the new task."
+  ],
+  "expected_state": "A new task is added to the card, listed under the tasks section within the card view."
+}

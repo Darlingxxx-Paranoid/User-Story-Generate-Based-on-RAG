@@ -1,0 +1,10 @@
+{
+  "function_description": "Deleting a card",
+  "initial_state": "User is logged into 4ga Boards and viewing a board with at least one card present.",
+  "steps": [
+    "Hover over the card you want to delete.",
+    "Click on the three dot icon that appears to open the card menu.",
+    "Select 'Delete Card' from the menu."
+  ],
+  "expected_state": "The selected card is removed from the board, and it no longer appears in its list."
+}

@@ -1,0 +1,8 @@
+{
+  "function_description": "Close Modal Without Saving Changes",
+  "initial_state": "User is on the modal for editing username or email with unsaved changes.",
+  "steps": [
+    "Click the 'Close' button on the modal."
+  ],
+  "expected_state": "The modal closes and no changes are saved to the username or email. User remains on the Account settings page."
+}

@@ -1,0 +1,9 @@
+{
+  "function_description": "Add list",
+  "initial_state": "User is on the Board view with columns for task status visible",
+  "steps": [
+    "Locate the 'Add list' button on the board view.",
+    "Click the 'Add list' button."
+  ],
+  "expected_state": "A new list creation interface is displayed, allowing the user to organize tasks into a new list."
+}

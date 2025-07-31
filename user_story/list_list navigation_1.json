@@ -1,0 +1,11 @@
+{
+  "function_description": "Move list within the same board using drag and drop",
+  "initial_state": "User is on a board with multiple lists visible on the screen.",
+  "steps": [
+    "Locate the list you wish to move.",
+    "Click and hold the mouse button on the list header.",
+    "Drag the list to the desired location within the same board.",
+    "Release the mouse button to drop the list in the new position."
+  ],
+  "expected_state": "The list is positioned in the new location within the same board, maintaining its contents and order."
+}

@@ -1,0 +1,11 @@
+{
+  "function_description": "Edit task description within a card",
+  "initial_state": "The user is logged into the 4ga Boards application, has opened the card view for a specific card, and is viewing the card's details.",
+  "steps": [
+    "Locate the input field for the task description within the card view.",
+    "Click on the input field to activate it for editing.",
+    "Modify the text to update the task description.",
+    "Save the changes to the task description."
+  ],
+  "expected_state": "The task description within the card is updated to reflect the new text entered by the user."
+}

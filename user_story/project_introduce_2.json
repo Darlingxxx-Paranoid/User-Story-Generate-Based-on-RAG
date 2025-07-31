@@ -1,0 +1,12 @@
+{
+  "function_description": "Rename an existing project",
+  "initial_state": "User is logged in and has project manager rights. User is on the dashboard view or has the sidebar visible.",
+  "steps": [
+    "Hover over the project name to reveal the three dot button (context menu).",
+    "Click the three dot button to open the quick menu.",
+    "Select the 'Rename Project' option.",
+    "Enter the new name for the project in the prompt that appears.",
+    "Confirm the renaming of the project."
+  ],
+  "expected_state": "The project name is updated and displayed with the new name on the dashboard view."
+}

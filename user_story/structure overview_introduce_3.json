@@ -1,0 +1,10 @@
+{
+  "function_description": "Add a new list to a board to represent a workflow stage.",
+  "initial_state": "User is logged into the 4ga Boards web app, has navigated to a specific board within a project, and the board should not have any lists created yet.",
+  "steps": [
+    "Locate and click the 'Add List' button or option on the board page.",
+    "Enter the list name in the provided field (e.g., 'To Do', 'Doing').",
+    "Confirm the addition by clicking the 'Save' or 'Create' button."
+  ],
+  "expected_state": "A new list is created on the board, representing a specific stage or category of the workflow."
+}

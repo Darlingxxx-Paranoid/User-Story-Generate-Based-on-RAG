@@ -1,0 +1,9 @@
+{
+  "function_description": "Unsubscribe from notifications related to a card",
+  "initial_state": "The user is logged into the 4ga Boards application, has opened the card view for a specific card, and is subscribed to notifications.",
+  "steps": [
+    "Locate the 'Unsubscribe from notifications' button within the card view.",
+    "Click the 'Unsubscribe from notifications' button."
+  ],
+  "expected_state": "The user is unsubscribed from notifications related to the card, and will no longer receive updates or alerts for changes made to the card."
+}

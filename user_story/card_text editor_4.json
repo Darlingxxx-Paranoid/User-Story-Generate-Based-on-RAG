@@ -1,0 +1,9 @@
+{
+  "function_description": "Horizontal rule insertion",
+  "initial_state": "The user is in the markdown editor and desires to insert a horizontal rule.",
+  "steps": [
+    "Place the cursor where the horizontal rule is to be inserted.",
+    "Click the 'Horizontal rule insertion' button on the toolbar or press CTRL + h."
+  ],
+  "expected_state": "A horizontal rule appears at the cursor location in the preview area, with markdown syntax applied in the editor."
+}

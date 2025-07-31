@@ -1,0 +1,10 @@
+{
+  "function_description": "Add a new project",
+  "initial_state": "The user is viewing the dashboard with the sidebar containing project categories.",
+  "steps": [
+    "Locate the 'Add Project Button' in the sidebar.",
+    "Click on the 'Add Project Button'.",
+    "Follow any prompts to enter project details."
+  ],
+  "expected_state": "A new project is added to the list of projects in the sidebar under the appropriate category."
+}

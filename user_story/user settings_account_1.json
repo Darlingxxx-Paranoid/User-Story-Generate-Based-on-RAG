@@ -1,0 +1,13 @@
+{
+  "function_description": "Edit Username",
+  "initial_state": "User is on the Account settings page and has a valid current password.",
+  "steps": [
+    "Click the 'Edit Username' button.",
+    "Wait for the modal titled 'Edit Username' to appear.",
+    "Enter the desired new username in the 'New username' text input field.",
+    "Enter the current password in the 'Current password' password input field.",
+    "Optionally toggle the password visibility if needed.",
+    "Click the 'Save' button."
+  ],
+  "expected_state": "The username is updated to the new username provided, and the user remains on the Account settings page with their changes successfully saved."
+}

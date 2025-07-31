@@ -1,0 +1,9 @@
+{
+  "function_description": "Navigate through lists using Ctrl + Scroll",
+  "initial_state": "User is on a board with multiple lists, some of which are not visible due to window size.",
+  "steps": [
+    "Press and hold the 'Ctrl' key on the keyboard.",
+    "Use the mouse scroll wheel to move left or right across the lists."
+  ],
+  "expected_state": "The view shifts horizontally, allowing the user to see lists that were previously out of view."
+}

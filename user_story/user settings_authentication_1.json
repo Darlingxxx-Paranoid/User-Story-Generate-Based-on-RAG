@@ -1,0 +1,13 @@
+{
+  "function_description": "Change the current password by entering a new password and verifying with the current password.",
+  "initial_state": "User is logged into the web application and navigates to the 'Authentication' settings page. The 'Edit Password' modal dialog is open.",
+  "steps": [
+    "Locate the 'New password' input field labeled accordingly.",
+    "Enter the desired new password into the 'New password' input field.",
+    "Locate the 'Current password' input field labeled accordingly.",
+    "Enter the current password into the 'Current password' input field.",
+    "Optionally, use the 'toggle visibility' button next to each password input field to show or hide the password entries.",
+    "Click the 'Save' button to submit the new password change request."
+  ],
+  "expected_state": "The user's password is updated successfully in the system. The modal dialog may close, and a confirmation message or indication of success is shown to the user."
+}

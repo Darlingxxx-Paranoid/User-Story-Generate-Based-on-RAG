@@ -1,0 +1,11 @@
+{
+  "function_description": "Add a card to a task list",
+  "initial_state": "The user is viewing a project management board with task lists.",
+  "steps": [
+    "Identify the task list where the card needs to be added.",
+    "Locate the 'Add Card' button within the task list.",
+    "Click on the 'Add Card' button.",
+    "Enter the task details in any prompts provided."
+  ],
+  "expected_state": "A new task card is added to the specified task list within the board."
+}

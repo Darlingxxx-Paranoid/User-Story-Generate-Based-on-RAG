@@ -1,0 +1,10 @@
+{
+  "function_description": "Change language preference in 4ga Boards application.",
+  "initial_state": "User is on the Preferences settings page of the 4ga Boards application with the current language set to English.",
+  "steps": [
+    "Locate the 'Language' section on the Preferences settings page.",
+    "Click on the dropdown menu next to the 'Language' label.",
+    "Select the desired language from the dropdown options."
+  ],
+  "expected_state": "The language preference of the 4ga Boards application is updated to the selected language, reflecting immediately in the user interface."
+}

@@ -1,0 +1,9 @@
+{
+  "function_description": "Quote block formatting",
+  "initial_state": "The user is in the markdown editor with text that requires quote block formatting.",
+  "steps": [
+    "Select the text that needs to be formatted as a quote.",
+    "Click the 'Quote block formatting' button on the toolbar or press CTRL + q."
+  ],
+  "expected_state": "The selected text appears as a quote block in the preview area, with markdown syntax applied in the editor."
+}

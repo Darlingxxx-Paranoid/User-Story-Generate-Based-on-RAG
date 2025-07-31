@@ -1,0 +1,9 @@
+{
+  "function_description": "Bold text formatting",
+  "initial_state": "The user is in the markdown editor with text that requires bold formatting.",
+  "steps": [
+    "Select the text that needs to be bolded.",
+    "Click the 'Bold text formatting' button on the toolbar or press CTRL + b."
+  ],
+  "expected_state": "The selected text appears bold in the preview area, with markdown syntax applied in the editor."
+}

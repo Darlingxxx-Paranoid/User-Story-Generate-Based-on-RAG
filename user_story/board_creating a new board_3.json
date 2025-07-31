@@ -1,0 +1,13 @@
+{
+  "function_description": "Create a new board using the '+Add Board' button at the bottom of the sidebar.",
+  "initial_state": "User is on the main project page with the sidebar visible, containing a list of existing projects.",
+  "steps": [
+    "Scroll to the bottom of the sidebar on the left side of the screen.",
+    "Click the '+Add Board' button located at the bottom.",
+    "In the pop-up modal, enter a name for the board in the textbox.",
+    "Select a project from the dropdown list to assign the board to the desired project.",
+    "Optionally, choose a template or import data from available options.",
+    "Click the 'Add Board' button to create the board."
+  ],
+  "expected_state": "The new board is created within the selected project, appearing in the project view with the provided name and configurations."
+}

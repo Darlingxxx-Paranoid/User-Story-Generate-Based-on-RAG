@@ -1,0 +1,11 @@
+{
+  "function_description": "Update the phone number.",
+  "initial_state": "The user is on the profile settings page with a text field labeled 'Phone' showing the current phone number.",
+  "steps": [
+    "Locate the text field labeled 'Phone'.",
+    "Click inside the text field to make it active.",
+    "Delete the current phone number or modify it as desired.",
+    "Enter the new phone number."
+  ],
+  "expected_state": "The 'Phone' text field displays the new phone number entered by the user. The new phone number is ready to be saved."
+}

@@ -1,0 +1,10 @@
+{
+  "function_description": "Creating a new list on the board",
+  "initial_state": "The user is on a board page with at least one existing list displayed.",
+  "steps": [
+    "Locate and click on the '+add list' button on the board.",
+    "Enter a name for the new list in the provided input field.",
+    "Click on the green 'Add List' button to confirm the creation of the list."
+  ],
+  "expected_state": "A new list with the specified name is added to the board. A pop-up window opens, prompting the user to create another list, which can be closed by clicking 'Cancel' or performing another action."
+}

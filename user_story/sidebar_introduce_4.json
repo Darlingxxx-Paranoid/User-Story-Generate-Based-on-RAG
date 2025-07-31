@@ -1,0 +1,9 @@
+{
+  "function_description": "Show/hide boards in projects using the triangle button.",
+  "initial_state": "The user is logged into the 4ga Boards web app and the sidebar is visible, with projects listed.",
+  "steps": [
+    "Locate the triangle button next to the project name in the sidebar.",
+    "Click the triangle button to expand or collapse the list of boards within the project."
+  ],
+  "expected_state": "The boards within the selected project are either shown or hidden, allowing the user to navigate through the projects more efficiently."
+}

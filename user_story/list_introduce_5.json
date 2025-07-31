@@ -1,0 +1,9 @@
+{
+  "function_description": "Create and add a new card to the Done column",
+  "initial_state": "The kanban board is displayed with the Done column visible and empty, having zero cards.",
+  "steps": [
+    "Locate the Done column on the kanban board.",
+    "Click the button labeled for creating a new card in the Done column."
+  ],
+  "expected_state": "A new card is added to the Done column, and the card counter for the Done column increases by one."
+}

@@ -1,0 +1,11 @@
+{
+  "function_description": "Add a new list to the board",
+  "initial_state": "The user is logged into the 4ga Boards application and is viewing a board.",
+  "steps": [
+    "Locate the 'Add new list' button on the board.",
+    "Click the 'Add new list' button.",
+    "Enter a title for the new list.",
+    "Confirm the creation of the new list."
+  ],
+  "expected_state": "A new list is added to the board with the specified title, allowing the user to add cards to this list."
+}

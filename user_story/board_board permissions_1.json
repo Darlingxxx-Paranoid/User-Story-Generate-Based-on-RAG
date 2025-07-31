@@ -1,0 +1,12 @@
+{
+  "function_description": "Manage board permissions by assigning different roles to members.",
+  "initial_state": "The user is on the board settings page with administrative access. The board must have members that need role assignment.",
+  "steps": [
+    "Navigate to the board settings page.",
+    "Locate the section for managing member permissions.",
+    "Select a member from the list of board members.",
+    "Choose the desired role from the available options: Project Manager, Editor, Commenter, Viewer.",
+    "Confirm the role assignment."
+  ],
+  "expected_state": "The selected member has been assigned the specified role, with permissions according to the role: Project Manager can manage boards and add members, Editor can create and delete tasks and lists, Commenter can view and comment on cards, Viewer can only view board contents."
+}

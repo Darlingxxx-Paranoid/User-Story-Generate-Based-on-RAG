@@ -1,0 +1,9 @@
+{
+  "function_description": "Create a new board",
+  "initial_state": "The user is viewing the dashboard of the 4ga Boards web application where no boards are present in the selected project.",
+  "steps": [
+    "Navigate to the bottom of the sidebar or the top-right corner of the screen.",
+    "Click on the '+Add Board' button."
+  ],
+  "expected_state": "A new board is created and displayed in the main content area, and the board name is highlighted in the sidebar."
+}

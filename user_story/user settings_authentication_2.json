@@ -1,0 +1,9 @@
+{
+  "function_description": "Close the 'Edit Password' modal dialog without making any changes.",
+  "initial_state": "User is logged into the web application and navigates to the 'Authentication' settings page. The 'Edit Password' modal dialog is open.",
+  "steps": [
+    "Locate the 'close' button in the modal header.",
+    "Click the 'close' button to exit the 'Edit Password' modal dialog."
+  ],
+  "expected_state": "The 'Edit Password' modal dialog is closed, returning the user to the previous page or state without any password changes occurring."
+}

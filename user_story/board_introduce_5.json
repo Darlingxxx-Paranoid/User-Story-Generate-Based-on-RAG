@@ -1,0 +1,9 @@
+{
+  "function_description": "View notifications",
+  "initial_state": "The user is on any page within the 4ga Boards web application.",
+  "steps": [
+    "Locate the 'Notifications Icon' at the top of the screen.",
+    "Click on the 'Notifications Icon'."
+  ],
+  "expected_state": "The notifications panel opens, displaying any alerts or messages for the user."
+}

@@ -1,0 +1,9 @@
+{
+  "function_description": "Accesses user settings or profile options",
+  "initial_state": "User is on any view with the header/top bar visible",
+  "steps": [
+    "Locate the user menu/icon on the header/top bar.",
+    "Click the user menu/icon."
+  ],
+  "expected_state": "User settings or profile options are displayed, allowing the user to manage their profile."
+}

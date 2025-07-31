@@ -1,0 +1,10 @@
+{
+  "function_description": "Mark tasks as complete or incomplete within a card",
+  "initial_state": "The user is logged into the 4ga Boards application, has opened the card view for a specific card, and is viewing the card's tasks.",
+  "steps": [
+    "Locate the checkbox next to a specific task within the card view.",
+    "Click the checkbox to toggle the task's completion status.",
+    "Observe the task's appearance or status indicating whether it's marked as complete or incomplete."
+  ],
+  "expected_state": "The task's completion status is updated, with visual indicators reflecting whether it is marked as complete or incomplete."
+}

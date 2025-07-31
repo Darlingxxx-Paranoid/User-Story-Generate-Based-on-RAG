@@ -1,0 +1,10 @@
+{
+  "function_description": "Edit card title",
+  "initial_state": "User is viewing a card in the card view with the current title displayed.",
+  "steps": [
+    "Click on the card title.",
+    "Enter the new title.",
+    "Press `ENTER` to save the changes."
+  ],
+  "expected_state": "The card title is updated to the new title and displayed in the card view."
+}

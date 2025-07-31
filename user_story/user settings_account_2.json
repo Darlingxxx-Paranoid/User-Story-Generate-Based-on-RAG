@@ -1,0 +1,13 @@
+{
+  "function_description": "Edit E-mail",
+  "initial_state": "User is on the Account settings page and has a valid current password.",
+  "steps": [
+    "Click the 'Edit E-mail' button.",
+    "Wait for the modal to appear for email editing.",
+    "Enter the desired new email address in the appropriate text input field.",
+    "Enter the current password in the password input field.",
+    "Optionally toggle the password visibility if needed.",
+    "Click the 'Save' button."
+  ],
+  "expected_state": "The email address is updated to the new email provided, and the user remains on the Account settings page with their changes successfully saved."
+}

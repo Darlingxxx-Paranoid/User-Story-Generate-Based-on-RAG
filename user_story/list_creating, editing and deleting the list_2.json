@@ -1,0 +1,12 @@
+{
+  "function_description": "Editing the name of an existing list",
+  "initial_state": "The user is on a board page with at least one list already created and displayed.",
+  "steps": [
+    "Locate the list whose name you want to edit.",
+    "Click on the three dots in the top-right corner of the list to open the options menu.",
+    "Select the 'Edit Name' option from the menu.",
+    "Enter the new name for the list.",
+    "Confirm the change."
+  ],
+  "expected_state": "The list is displayed with the new name, replacing the old one."
+}

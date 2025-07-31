@@ -1,0 +1,12 @@
+{
+  "function_description": "Adding a card to a list",
+  "initial_state": "The user is on a board page with at least one list already created and displayed.",
+  "steps": [
+    "Locate the list to which you want to add a card.",
+    "Click on the three dots in the top-right corner of the list to open the options menu.",
+    "Select the 'Add Card' option from the menu.",
+    "Enter the details for the new card in the provided fields.",
+    "Confirm the creation of the card."
+  ],
+  "expected_state": "A new card is added to the bottom of the specified list. The card counter for the list increments by one."
+}

@@ -1,0 +1,10 @@
+{
+  "function_description": "Edit project/board within the sidebar using a three-dot menu.",
+  "initial_state": "The user is logged into the 4ga Boards web app and the sidebar is visible with the list of projects and boards.",
+  "steps": [
+    "Locate the three-dot menu next to the project or board name in the sidebar.",
+    "Click on the menu to open editing options.",
+    "Select the desired edit option and make changes to the project or board."
+  ],
+  "expected_state": "The project or board is updated according to the user's edits, reflecting the changes in the sidebar."
+}

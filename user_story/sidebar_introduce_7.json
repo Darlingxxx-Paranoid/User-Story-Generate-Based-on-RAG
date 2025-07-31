@@ -1,0 +1,9 @@
+{
+  "function_description": "Initiate the process to add a new project.",
+  "initial_state": "The user is logged into the 4ga Boards web app and the sidebar is visible.",
+  "steps": [
+    "Locate the button to add a new project in the sidebar.",
+    "Click the button to initiate the project creation process."
+  ],
+  "expected_state": "The user is directed to a new project creation interface, allowing them to enter details and set up a new project."
+}

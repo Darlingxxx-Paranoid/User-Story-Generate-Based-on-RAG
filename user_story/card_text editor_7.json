@@ -1,0 +1,10 @@
+{
+  "function_description": "Code block formatting",
+  "initial_state": "The user is in the markdown editor and wants to format text as a code block.",
+  "steps": [
+    "Select the text that needs to be formatted as a code block.",
+    "Click the 'Code block formatting' button on the toolbar or press CTRL + SHIFT + j.",
+    "Optionally, add custom tags for syntax highlighting and line numbers."
+  ],
+  "expected_state": "The selected text appears as a code block in the preview area, with optional syntax highlighting and line numbers."
+}

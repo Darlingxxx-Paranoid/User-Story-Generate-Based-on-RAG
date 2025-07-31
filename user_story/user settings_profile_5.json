@@ -1,0 +1,10 @@
+{
+  "function_description": "Save changes to the profile details.",
+  "initial_state": "The user is on the profile settings page with all desired changes made in the respective fields.",
+  "steps": [
+    "Review all the changes made to ensure they are correct.",
+    "Locate the 'Save' button at the bottom of the page.",
+    "Click the 'Save' button to apply all changes."
+  ],
+  "expected_state": "All changes to the profile picture, name, phone number, and organization details are saved successfully. The updated information is reflected in the profile settings page."
+}

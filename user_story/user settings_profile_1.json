@@ -1,0 +1,11 @@
+{
+  "function_description": "Edit the profile picture.",
+  "initial_state": "The user is on the profile settings page with a visible profile picture and an 'Edit' button.",
+  "steps": [
+    "Locate the current profile picture on the page.",
+    "Click on the 'Edit' button next to the profile picture.",
+    "Select a new picture from the disc using the file dialog that appears.",
+    "Confirm the selection of the new picture."
+  ],
+  "expected_state": "The profile picture is updated to the newly selected image. The change is visible on the profile settings page."
+}

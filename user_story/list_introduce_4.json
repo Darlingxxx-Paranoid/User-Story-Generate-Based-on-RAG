@@ -1,0 +1,9 @@
+{
+  "function_description": "Create and add a new card to the To Test column",
+  "initial_state": "The kanban board is displayed with the To Test column visible and empty, having zero cards.",
+  "steps": [
+    "Locate the To Test column on the kanban board.",
+    "Click the button labeled for creating a new card in the To Test column."
+  ],
+  "expected_state": "A new card is added to the To Test column, and the card counter for the To Test column increases by one."
+}

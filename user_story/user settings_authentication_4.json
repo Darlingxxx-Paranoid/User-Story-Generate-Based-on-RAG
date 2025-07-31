@@ -1,0 +1,9 @@
+{
+  "function_description": "Toggle the visibility of the current password entry.",
+  "initial_state": "User is logged into the web application and navigates to the 'Authentication' settings page. The 'Edit Password' modal dialog is open.",
+  "steps": [
+    "Locate the 'toggle visibility' button next to the 'Current password' input field.",
+    "Click the 'toggle visibility' button to change the visibility of the current password entry."
+  ],
+  "expected_state": "The current password entry becomes visible or hidden based on the user's choice, allowing easier verification of the input."
+}

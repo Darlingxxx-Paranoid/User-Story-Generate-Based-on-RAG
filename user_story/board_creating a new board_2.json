@@ -1,0 +1,13 @@
+{
+  "function_description": "Create a new board using the three-dot sidebar menu of a project.",
+  "initial_state": "User is viewing the list of projects within the 4ga Boards app, with at least one project available.",
+  "steps": [
+    "Navigate to the sidebar menu and locate the desired project.",
+    "Click the three-dot menu next to the project's name.",
+    "Select the option to add a board from the menu.",
+    "In the pop-up window, enter a name for the new board in the textbox.",
+    "Optionally, choose a template or import data as needed.",
+    "Click the 'Add Board' button to finalize creation."
+  ],
+  "expected_state": "A new board is added to the selected project, visible under the project with all specified configurations."
+}

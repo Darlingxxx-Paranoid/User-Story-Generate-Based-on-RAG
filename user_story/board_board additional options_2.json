@@ -1,0 +1,10 @@
+{
+  "function_description": "Change the order of a board within a project",
+  "initial_state": "User is logged into the web app and viewing a project with boards listed in the sidebar.",
+  "steps": [
+    "Locate the board name in the sidebar.",
+    "Click and hold on the two arrows button that appears to the left of the board name.",
+    "Drag the board to the desired position within the list."
+  ],
+  "expected_state": "The board appears in the new position within the list of boards for the project."
+}

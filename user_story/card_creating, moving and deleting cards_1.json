@@ -1,0 +1,11 @@
+{
+  "function_description": "Creating a card in a list",
+  "initial_state": "User is logged into 4ga Boards and viewing a board with at least one list present.",
+  "steps": [
+    "Locate the list where you want to create a new card.",
+    "Click on the '+ Add Card' button at the bottom of the list or click the ellipsis icon at the top-right of the list and select 'Add Card'.",
+    "Enter the title of the new card.",
+    "Press 'Enter' or click the 'Add Card' button to create the card."
+  ],
+  "expected_state": "A new card with the specified title is created and displayed at the bottom of the selected list."
+}

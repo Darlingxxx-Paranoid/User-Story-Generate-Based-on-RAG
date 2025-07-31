@@ -11,7 +11,7 @@ BASE_URL = "https://docs.4gaboards.com"
 START_PATH = "/docs/user-manual"
 START_URL = urljoin(BASE_URL, START_PATH)
 
-OUTPUT_DIR = "../user_docs"
+OUTPUT_DIR = "../../user_docs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Selenium 设置

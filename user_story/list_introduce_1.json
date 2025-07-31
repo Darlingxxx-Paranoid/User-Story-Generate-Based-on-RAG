@@ -1,0 +1,9 @@
+{
+  "function_description": "Create and add a new card to the Open column",
+  "initial_state": "The kanban board is displayed with the Open column visible and empty, having zero cards.",
+  "steps": [
+    "Locate the Open column on the kanban board.",
+    "Click the button labeled for creating a new card in the Open column."
+  ],
+  "expected_state": "A new card is added to the Open column, and the card counter for the Open column increases by one."
+}

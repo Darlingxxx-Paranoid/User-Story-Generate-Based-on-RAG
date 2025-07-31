@@ -1,0 +1,9 @@
+{
+  "function_description": "Provides access to notifications or settings",
+  "initial_state": "User is on any view with the navigation icon visible",
+  "steps": [
+    "Locate the navigation icon on the header/top bar.",
+    "Click the navigation icon."
+  ],
+  "expected_state": "Notifications or settings options are displayed, allowing the user to view notifications or adjust settings."
+}

@@ -1,0 +1,9 @@
+{
+  "function_description": "Filters the list of projects on the sidebar",
+  "initial_state": "User is on any view with the sidebar/project list visible",
+  "steps": [
+    "Locate the search box on the sidebar/project list.",
+    "Enter a project name into the search box."
+  ],
+  "expected_state": "The list of projects is filtered based on the entered project name."
+}

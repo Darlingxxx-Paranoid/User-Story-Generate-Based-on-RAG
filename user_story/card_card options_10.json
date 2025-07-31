@@ -1,0 +1,12 @@
+{
+  "function_description": "Manage tasks within a card",
+  "initial_state": "User is viewing a card in the card view with the tasks section visible.",
+  "steps": [
+    "Click the `+` icon or `Add Task` button to add a new task.",
+    "Enter task details and press `Enter` or click `Save`.",
+    "Click the square next to a task to mark it complete.",
+    "Click on a task description to rename it, then `Enter` to save changes.",
+    "Hover over a task, click the ellipsis icon, and select `delete task` to remove a task."
+  ],
+  "expected_state": "Tasks are added, edited, completed, or deleted as instructed, with progress visually indicated by color change from red to green."
+}

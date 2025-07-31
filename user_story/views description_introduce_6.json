@@ -1,0 +1,9 @@
+{
+  "function_description": "Displays project tiles representing categories",
+  "initial_state": "User is on the Dashboard view with the main content area visible",
+  "steps": [
+    "View the main content area to see project tiles.",
+    "Click on any project tile to access specific boards under that category."
+  ],
+  "expected_state": "Specific boards under the selected project category are displayed."
+}

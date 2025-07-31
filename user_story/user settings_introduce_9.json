@@ -1,0 +1,9 @@
+{
+  "function_description": "Navigates to 'About' information",
+  "initial_state": "User is on the settings page of the 4GA Boards application.",
+  "steps": [
+    "Open the settings page of the 4GA Boards application.",
+    "Click the button labeled 'About' in the settings navigation sidebar."
+  ],
+  "expected_state": "The user is navigated to the 'About' information section, where they can view general information about the application."
+}

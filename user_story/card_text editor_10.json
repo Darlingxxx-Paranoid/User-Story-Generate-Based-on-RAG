@@ -1,0 +1,10 @@
+{
+  "function_description": "Ordered list creation",
+  "initial_state": "The user is in the markdown editor and wants to create an ordered list.",
+  "steps": [
+    "Place the cursor where the list is to be inserted.",
+    "Click the 'Ordered list creation' button on the toolbar or press CTRL + SHIFT + o.",
+    "Enter list items one per line with numbers."
+  ],
+  "expected_state": "An ordered list appears in the preview area, with markdown syntax applied in the editor."
+}

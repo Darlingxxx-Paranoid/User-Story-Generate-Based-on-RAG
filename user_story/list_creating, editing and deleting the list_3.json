@@ -1,0 +1,11 @@
+{
+  "function_description": "Deleting an existing list",
+  "initial_state": "The user is on a board page with at least one list already created and displayed.",
+  "steps": [
+    "Locate the list you wish to delete.",
+    "Click on the three dots in the top-right corner of the list to open the options menu.",
+    "Select the 'Delete List' option from the menu.",
+    "In the confirmation pop-up, confirm the deletion action."
+  ],
+  "expected_state": "The selected list is removed from the board. The list count on the board is reduced by one."
+}
